@@ -1,0 +1,293 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass abnt
+\begin_preamble
+\usepackage {graphicx}
+\usepackage {longtable}
+\usepackage {indentfirst}
+\renewenvironment{center}{\par\centering}{\par}
+
+% Comentar linhas abaixo se não estiver usando pacote abntex
+% ou se o pacote ainda não foi instalado.
+% neste caso sugere-se usar citações no padrão apalike (lembra o da anbt).
+\usepackage[alf ,abnt-etal-cite=2 , abnt-year-extra-label=yes , abnt-etal-list=0]{abntcite}
+\usepackage {helvet}
+\renewcommand {\familydefault}{\sfdefault}
+\end_preamble
+\options normaltoc, sumarioincompleto
+\use_default_options false
+\maintain_unincluded_children false
+\language brazilian
+\language_package default
+\inputencoding iso8859-1
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref true
+\pdf_title "Título da Monografia - Dissertação - Tese"
+\pdf_author "Nome do Autor"
+\pdf_subject "Descrever assunto"
+\pdf_keywords "Copiar do resumo"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered true
+\pdf_bookmarksopen true
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref page
+\pdf_pdfusetitle true
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Índice
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 210mm
+\paperheight 297mm
+\leftmargin 30mm
+\topmargin 25mm
+\rightmargin 20mm
+\bottommargin 20mm
+\secnumdepth 2
+\tocdepth 1
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Conclusões
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Conclusões
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:Conclusoes"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lhead{
+\backslash
+thechapter-Conclusões}
+\backslash
+rhead{
+\backslash
+thepage}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Apresenta-se neste tópico as conclusões a partir dos resultados obtidos
+ para cumprimento dos objetivos propostos neste estudo.
+ Além disso, apresenta-se algumas sugestões para trabalhos futuros que se
+ consideram pertinentes para dar seguimento a proposta de projeto apresentada.
+\end_layout
+
+\begin_layout Section
+Conclusões
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Conclusoes"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Com o objetivo de investigar o comportamento corrosivo de fluidos de perfuração
+ à base aquosa glicerinada e à base de água em contato com o aço inoxidável
+ AISI 316L, visando compreender os efeitos dessas formulações sobre a integridad
+e do material, por um período de 7 dias a 94 ºC, concluiu-se que: (i) Os
+ fluidos formulados apresentaram diferentes perfis de reologia com diminuição
+ dos parâmetros reológicos, de forma geral, após o período de sete dias
+ de envelhecimento; (ii) A determinação das taxas de corrosão por ensaios
+ de perda de massa mostrou diferenças de desempenho entre os fluidos, com
+ valores variando de corrosão leve (1,861 mpy para FBA2) a ataque severo
+ (16,399 mpy para FBG2).
+ (iii) A análise de inspeção visual e a análise morfológica por microscopia
+ confocal confirmou e refinou a interpretação dos dados gravimétricos (perda
+ de massa) e cálculo da taxa de corrosão, permitindo sugerir os mecanismos
+ predominantes de corrosão.
+ Observou-se corrosão generalizada no fluido de maior salinidade (FBG2),
+ corrosão uniforme moderada no fluido FBG1, corrosão localizada no fluido
+ FBA1 e corrosão uniforme leve no fluido FBA2.
+ Essa integração entre perda de massa, taxa de corrosão, composição dos
+ fluidos e morfologia superficial possibilitou estabelecer de forma mais
+ adequada parâmetros comparativos de análise do poder corrosivo dos fluidos
+ de perfuração avaliados.
+ (iv) A partir da integração dos resultados, sugere-se que a composição
+ química dos fluidos em termos de salinidade, composição polimérica, presença
+ de glicerina e presença de inibidor de corrosão foram fatores que influenciaram
+ diretamente o poder corrosivo dos fluidos testados.
+ (v) A correlação entre os resultados demonstrou que a condutividade eletrolític
+a elevada (associada a maiores teores de salmoura) e a ausência ou instabilidade
+ de filmes protetores foram os fatores mais críticos para intensificação
+ da corrosão sob as condições avaliadas neste trabalho.
+ Por outro lado, a presença de glicerina, a qual reduz a atividade da água
+ e a solubilidade de oxigênio, e especialmente a adição de inibidor de amônio
+ quaternário mostraram-se determinantes para a mitigação do ataque corrosivo.
+ (vi) Entre todos os fluidos avaliados, o fluido FBA2 apresentou o melhor
+ desempenho anticorrosivo, evidenciado pela menor taxa de corrosão (1,861
+ mpy) e pela preservação da integridade superficial dos cupons, com morfologia
+ típica de corrosão uniforme leve.
+ Esse desempenho superior é atribuído à presença do inibidor de amônio quaternár
+io, que promove a formação de um filme protetor estável e reduz a transferência
+ de carga entre o metal e o meio corrosivo.
+ Assim, FBA2 destaca-se como o sistema mais adequado para as condições operacion
+ais simuladas.
+ Dentre os fluidos à base de glicerina, o que apresentou melhor desempenho
+ anticorrosivo foi o FBG1 em virtude do menor teor de cloretos e sólidos
+ em comparação com o FBG2.
+ De forma geral este estudo demonstra que a seleção do fluido de perfuração
+ deve considerar não apenas parâmetros operacionais e reológicos, mas também
+ a interação química entre seus constituintes e o material metálico que
+ estará exposto a eles.
+ Os resultados aqui apresentados contribuem para o entendimento dos mecanismos
+ envolvidos e podem subsidiar decisões técnicas em campo visando à mitigação
+ de processos corrosivos em componentes fabricados em aço AISI 316L.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Sugestões Para Trabalhos Futuros
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Trabalhos Futuros
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Sugestoes-Para-Trabalhos-Futuros"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Fazer avaliação eletroquímica complementar utilizando, por exemplo, a técnica
+ de polarização potenciodinâmica ou espectroscopia de impedância eletroquímica.
+\end_layout
+
+\begin_layout Itemize
+Fazer avaliação do efeito da temperatura e pH do meio para verificar sua
+ influência na ação corrosiva dos fluidos.
+ 
+\end_layout
+
+\begin_layout Itemize
+Avaliar o comportamento corrosivo de outros tipos de materiais metálicos.
+ 
+\end_layout
+
+\begin_layout Itemize
+Testar outros inibidores de corrosão e fazer esta avaliação para todos os
+ fluidos avaliados.
+ Assim será possível comparar o fluido com e sem inibidor.
+ 
+\end_layout
+
+\begin_layout Itemize
+Utilizar outras técnicas microscópicas, como MEV/EDS para avaliar a superfície
+ dos cupons de aço.
+ 
+\end_layout
+
+\begin_layout Itemize
+Fazer ensaios de maior duração de envelhecimento dos fluidos para ampliar
+ o contato dos cupons com o meio corrosivo.
+ 
+\end_layout
+
+\end_body
+\end_document

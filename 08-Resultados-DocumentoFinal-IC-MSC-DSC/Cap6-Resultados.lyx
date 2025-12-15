@@ -1,0 +1,1643 @@
+#LyX 2.4 created this file. For more info see https://www.lyx.org/
+\lyxformat 620
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass abnt
+\begin_preamble
+\usepackage {graphicx}
+\usepackage {longtable}
+
+\usepackage {indentfirst}
+\renewenvironment{center}{\par\centering}{\par}
+\end_preamble
+\use_default_options false
+\master Monografia-Dissertacao-Tese-master.lyx
+\maintain_unincluded_children no
+\language brazilian
+\language_package default
+\inputencoding iso8859-1
+\fontencoding auto
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement p
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref false
+\papersize a4
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_formatted_ref 0
+\use_minted 0
+\use_lineno 0
+\index Índice
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 210mm
+\paperheight 297mm
+\leftmargin 30mm
+\topmargin 25mm
+\rightmargin 20mm
+\bottommargin 20mm
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tablestyle default
+\tracking_changes false
+\output_changes false
+\change_bars false
+\postpone_fragile_content false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\docbook_table_output 0
+\docbook_mathml_prefix 1
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+RESULTADOS E DISCUSSÕES
+\begin_inset Index idx
+range none
+pageformat default
+status open
+
+\begin_layout Plain Layout
+DISCUSSÕES
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:RESULTADOS-E-DISCUSSÕES"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lhead{
+\backslash
+thechapter Resultados e Análises} 
+\backslash
+rhead{
+\backslash
+thepage} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A presente seção apresenta e discute os resultados obtidos por meio dos ensaios laboratoriais realizados com os cupons metálicos submetidos a diferentes formulações de fluidos de perfuração.
+ As análises abrangeram aspectos quantitativos,
+ como a perda de massa dos corpos de prova,
+ e qualitativos,
+ como a inspeção visual e a caracterização morfológica por microscopia confocal.
+ Também foram avaliadas as propriedades físico-químicas dos fluidos de perfuração antes e após o envelhecimento em forno rotativo.
+ A abordagem estabelece comparações entre os fluidos testados,
+ e sua influência na corrosão do aço AISI 316L.
+\end_layout
+
+\begin_layout Section
+AVALIAÇÃO DAS PROPRIEDADES REOLÓGICAS DOS FLUIDOS DE PERFURAÇÃO
+\begin_inset Index idx
+range none
+pageformat default
+status open
+
+\begin_layout Plain Layout
+PERFURAÇÃO
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:AVALIAÇÃO-DAS-PROPRIEDADES-1"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A avaliação do comportamento reológico dos fluidos de perfuração antes (AE) e após o envelhecimento térmico (DE) possibilita compreender a estabilidade das formulações ao longo do tempo de exposição às condições simuladas de reservatório 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Caenn2011"
+literal "false"
+
+\end_inset
+
+.
+ Os fluidos FBA1,
+ FBA2,
+ FBG1 e FBG2 foram submetidos à análise reológica antes e depois do envelhecimento (após 7 dias).
+ Os resultados obtidos para estas análises antes e depois do envelhecimento (A.E./D.E),
+ encontram-se na Tabela 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Propriedades-reológicas-obtidas"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+alignment document
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Propriedades reológicas obtidas para os fluidos de perfuração aquosos e base glicerina formulados
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Propriedades-reológicas-obtidas"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../res/Captura de tela 2025-11-24 124401.png
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Segundo normas API,
+ para fluidos de perfuração aditivados é recomendável que os valores de L3 (reologia a baixas taxas de cisalhamento) sejam elevados para garantir uma boa capacidade de transporte e sustentação dos cascalhos no interior do poço 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "MOREIRA2022"
+literal "false"
+
+\end_inset
+
+.
+ Considerando que durante a perfuração do poço ocorre a incorporação de sólidos ao fluido é importante ressaltar que as propriedades reológicas podem ser alteradas para valores mais elevados.
+ Devido a isso,
+ normalmente inicia-se a perfuração de uma dada fase com baixos valores de L600 e L3 (fluido inicial) e com o progresso da perfuração acompanha-se o contínuo aumento dessas propriedades 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "MOREIRA2022"
+literal "false"
+
+\end_inset
+
+.
+ Por outro lado,
+ valores de gel inicial e final não podem ser nem muito elevados,
+ nem muito abaixo dos valores estipulados pelo API (3-12 lbf/100ft2 para Gi e 8-20 lbf/100ft2 para Gf).
+ Se Gi e Gf forem muito elevados,
+ ao reiniciar-se a perfuração após uma parada,
+ uma alta viscosidade exigiria grande esforço mecânico e se forem muito baixo podem ocasionar o entupimento do poço devido a não sustentação dos cascalhos 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Barros"
+literal "false"
+
+\end_inset
+
+.
+ Observa-se pela Tabela 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Propriedades-reológicas-obtidas"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+ que os fluidos base aquosa (FBA1 e FBA2) apresentaram valores de L3 e Gf dentro do limite mínimo de referência antes do envelhecimento.
+ Enquanto os fluidos base glicerina (FBG1 e FBG2),
+ cuja diferença está na proporção de sólidos e polímeros apresentaram valores de L3 e Gf próximos aos valores de referência.
+ De forma geral houve uma diminuição de todos os parâmetros reológicos após o envelhecimento em virtude do tempo de 7 dias que os fluidos ficaram no forno rotativo à 94 º C.
+ De acordo com 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "MOREIRA2022"
+literal "false"
+
+\end_inset
+
+ pode-se iniciar uma perfuração de uma dada fase com baixos valores de L600 e L3 (fluido inicial) e com o progresso da perfuração acompanha-se o contínuo aumento dessas propriedades.
+ Para uma melhor visualização dos dados relativos à viscosidade plástica e limites de escoamento dos fluidos avaliados,
+ plotou-se os gráficos das Figuras 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Variação-da-viscosidade"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+(a e b) e 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Variação-da-tensão"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+(a e b).
+ O gráfico apresentado na Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Variação-da-viscosidade"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+(a e b) ilustra a variação da viscosidade em função da taxa de cisalhamento,
+ permitindo comparar os diferentes fluidos formulados e o gráfico da Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Variação-da-tensão"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+(a e b) apresenta o gráfico da tensão de cisalhamento em função da taxa de cisalhamento.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+alignment document
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Variação da viscosidade versus taxa de cisalhamento para os quatro fluidos testados antes e após o envelhecimento
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Variação-da-viscosidade"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../res/Captura de tela 2025-12-10 203957.png
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+alignment document
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Variação da tensão de cisalhamento versus taxa de cisalhamento para os fluidos 100% base água (a) e para os fluidos base glicerina (b) testados antes e após o envelhecimento
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Variação-da-tensão"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../res/Captura de tela 2025-12-10 204056.png
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A viscosidade plástica é considerada como a medida da resistência interna para fluir um fluido,
+ como resultado da interação dos sólidos que estão presentes em um fluido de perfuração 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Savins1954Viscometer"
+literal "false"
+
+\end_inset
+
+.
+ Valores de VP abaixo de 10 cP não são adequados para fluidos de perfuração e é indicativo de que o LE está muito alto e isso pode levar a um estado de floculação para os sólidos presentes.
+ Por outro lado,
+ valores de VP muito acima de 10 cP (alta viscosidade) pode gerar sobrecarga para o sistema de bombeamento de fluido 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "PETROBRAS1998"
+literal "false"
+
+\end_inset
+
+.
+ Nos gráfico da Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Variação-da-viscosidade"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+(a e b) (viscosidade em função da taxa de cisalhamento),
+ observa-se que todas as formulações apresentam redução da viscosidade com o aumento da taxa de cisalhamento,
+ o que caracteriza um comportamento pseudoplástico típico.
+ Esse tipo de comportamento é desejável em fluidos de perfuração,
+ pois permite que o fluido escoe facilmente sob altas taxas de cisalhamento (como nas regiões próximas à broca ou nas bombas) e,
+ ao mesmo tempo,
+ mantenha alta viscosidade em baixas taxas de cisalhamento,
+ favorecendo a suspensão dos cascalhos quando o fluido está em repouso 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Caenn2011,Thomas2001"
+literal "false"
+
+\end_inset
+
+.
+ Ao comparar os resultados antes (AE) e após o envelhecimento térmico (DE,
+ 7 dias),
+ nota-se uma redução significativa da viscosidade aparente nos fluidos após envelhecimento,
+ especialmente os fluidos base aquosa (FBA1 e FBA2).
+ Essa diminuição indica uma perda de estabilidade reológica das formulações provavelmente devido a degradação térmica de algum dos aditivos utilizados na formulação.
+ Segundo 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Davoodi2023"
+literal "false"
+
+\end_inset
+
+,
+ os polímeros empregados em fluidos de perfuração devem oferecer resistência térmica e à salinidade para manter a estabilidade reológica em condições adversas.
+ Quando tais requisitos não são atendidos,
+ pode ocorrer degradação dos aditivos e consequente perda de desempenho do fluido.
+ De modo geral,
+ a redução mais acentuada nas baixas taxas de cisalhamento indica que o envelhecimento (por um período de 7 dias) afetou principalmente a estrutura tridimensional do fluido,
+ responsável pela manutenção dos sólidos em suspensão.
+ Adicionalmente,
+ o gráfico da Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Variação-da-tensão"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+(a e b) (tensão de cisalhamento em função da taxa de cisalhamento) complementa a análise reológica dos fluidos formulados.
+ As curvas apresentadas indicam um aumento não linear da tensão de cisalhamento com o aumento da taxa de cisalhamento,
+ confirmando o comportamento não-newtoniano pseudoplástico dos fluidos analisados 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Caenn2011"
+literal "false"
+
+\end_inset
+
+.
+ Antes do envelhecimento térmico (AE),
+ os fluidos exibem maiores valores de tensão de cisalhamento em baixas taxas,
+ o que reflete um limite de escoamento mais elevado e,
+ portanto,
+ uma estrutura interna mais coesa.
+ Esse comportamento é desejável,
+ pois está associado à capacidade do fluido de sustentar cascalhos e sólidos perfurados em suspensão quando o escoamento é interrompido 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Thomas2001"
+literal "false"
+
+\end_inset
+
+.
+ Após o envelhecimento térmico de 7 dias (DE),
+ observa-se uma redução significativa da tensão de cisalhamento,
+ especialmente nas regiões de baixas taxas de cisalhamento.
+ Essa mudança pode estar associada à degradação térmica dos agentes viscosificantes e tixotrópicos,
+ resultando em redução do limite de escoamento e da força gel.
+ De acordo com
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Darley1988"
+literal "false"
+
+\end_inset
+
+,
+ essa diminuição reflete a quebra parcial da rede estrutural do fluido,
+ tornando-o mais suscetível à sedimentação de sólidos e à perda de desempenho sob condições de alta temperatura.
+ Notou-se que os fluidos base glicerina mantiveram curvas mais próximas antes e após o envelhecimento de 7 dias,
+ sugerindo maior estabilidade térmica dos aditivos empregados.
+ Esse comportamento indica que os componentes presentes nessas formulações possuem maior resistência à degradação térmica e química,
+ sendo mais adequados para uso em poços de alta temperatura e pressão 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Malgaresi2018"
+literal "false"
+
+\end_inset
+
+.
+ Outro ponto relevante refere-se à formulação FBG2,
+ que possui maior teor de sólidos e sais dissolvidos.
+ Apesar dessa diferença composicional,
+ o aumento da concentração de sólidos não alterou de forma significativa o perfil reológico quando comparado ao FBG1.
+ Tal resultado evidencia que a presença de glicerina garante estabilidade ao sistema,
+ minimizando o impacto do teor de sólidos sobre o comportamento viscosimétrico.
+ De forma geral,
+ esta análise confirma que os fluidos à base de glicerina apresentam desempenho superior no que diz respeito à manutenção de suas propriedades reológicas após o envelhecimento,
+ enquanto os fluidos à base de água demonstraram maior sensibilidade térmica e perda de estabilidade ao longo do tempo,
+ conforme demonstrado por 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "BUENO2018"
+literal "false"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Section
+AVALIAÇÃO DO POTENCIAL CORROSIVO DOS FLUIDOS NO AÇO
+\begin_inset Index idx
+range none
+pageformat default
+status open
+
+\begin_layout Plain Layout
+AÇO
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:AVALIAÇÃO-DO-POTENCIAL"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A seleção de fluidos de perfuração apropriados é essencial para o sucesso da operação de perfuração 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Abdelsattar2020"
+literal "false"
+
+\end_inset
+
+.
+ Os fluidos de perfuração à base de água (FBA) são os mais adequados de todos os tipos e são amplamente utilizados na indústria por ser significativo e ecologicamente correto 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Abdollahi2018"
+literal "false"
+
+\end_inset
+
+.
+ No entanto,
+ fluidos FBA são considerados corrosivos durante o processo de perfuração,
+ pois podem ser contaminados com aceleradores de corrosão,
+ como O2,
+ CO2,
+ H2S,
+ sais e ácidos orgânicos 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Growcock2005,Fuente2007,Abdelsattar2020"
+literal "false"
+
+\end_inset
+
+.
+ A avaliação do potencial corrosivo dos fluidos de perfuração avaliados neste trabalho foi realizada por meio da comparação entre a massa inicial e a massa final dos cupons metálicos após o ensaio de imersão 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Kutz2012,Malaret2022"
+literal "false"
+
+\end_inset
+
+ em cada um dos fluidos de perfuração utilizados como meios corrosivos neste estudo.
+ Os dados obtidos permitiram calcular a perda de massa absoluta de cada amostra,
+ servindo como base para a determinação da taxa de corrosão.
+ Essa medida fornece uma estimativa direta do grau de agressividade de cada fluido sobre o aço inoxidável AISI 316L.
+ A Tabela 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Perda-de-massa"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+ apresenta as massas inicial e final dos cupons metálicos após sete dias de imersão nos fluidos de perfuração a 94 °C,
+ permitindo o cálculo da perda de massa em gramas.
+ Já a Tabela 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Taxa-de-corrosão"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+ mostra as respectivas taxas de corrosão expressas em milésimos de polegada por ano (mpy),
+ obtidas com base no tempo de exposição,
+ área superficial e densidade do material,
+ de acordo com a equação 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:equação2"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+alignment document
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Perda de massa dos cupons de aço submetidas aos fluidos base glicerina e água 
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Perda-de-massa"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../res/Captura de tela 2025-11-24 131117.png
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+alignment document
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Taxa de corrosão obtida para cada cupom submetido aos diferentes fluidos de perfuração durante 7 dias
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Taxa-de-corrosão"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../res/Captura de tela 2025-11-24 131325.png
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Visualização-gráfica-da"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+ representa graficamente o comportamento da taxa de corrosão em função da formulação dos fluidos de perfuração,
+ facilitando a visualização comparativa entre os diferentes meios.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+alignment document
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Visualização gráfica da taxa de corrosão de cupons de aço inoxidável imersos nos respectivos fluidos 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Visualização-gráfica-da"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../res/Captura de tela 2025-11-24 131523.png
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+De modo geral,
+ observa-se que os cupons imersos nos fluidos FBA1,
+ FBA2 e FBG1 apresentaram baixas perdas de massa (0,013 - 0,026 g) e taxas de corrosão inferiores a 4 mpy,
+ indicando comportamento considerado não severo segundo critérios da 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "NACE_RP0775_2005"
+literal "true"
+
+\end_inset
+
+ que classifica taxas maiores que 10 mpy como aceitáveis para corrosão uniforme e maiores que 15 mpy no caso de corrosão por pite 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Classificação-das-taxas"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+.
+ Considerando apenas os fluidos à base de água,
+ notou-se que o FBA2,
+ o qual contém o inibidor de corrosão,
+ foi o que apresentou menor perda de massa (0,013 g) e menor taxa de corrosão (1,861 mpy).
+ Por outro lado,
+ o cupom imerso no fluido FBG2 apresentou uma perda de massa significativamente maior (0,115 g),
+ resultando em uma taxa de corrosão de 16,399 mpy,
+ valor que representa uma condição de corrosão severa 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Classificação-das-taxas"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+.
+ Esse resultado sugere menor eficiência protetiva do sistema fluido-metal,
+ possivelmente associada à composição química deste fluido,
+ o qual contém maior teor de sais,
+ cloretos livres,
+ maior teor de sólidos e sem adição de inibidor de corrosão 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Descrição-dos-componentes"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+.
+ Já o fluido FBG1 apresentou uma taxa de corrosão menor que o FBA1,
+ mas superior à do FBA2,
+ o que pode ser atribuído à menor condutividade da glicerina em relação à água,
+ mas sem a presença de inibidores.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Mateus2019"
+literal "true"
+
+\end_inset
+
+,
+ avaliaram o poder corrosivo de fluidos à base de glicerina e à base de olefina de baixo e alto peso (maior teor de cloreto e sais) em amostras de ferro fundido niquelado.
+ Os resultados do estudo mostraram que o fluido base glicerina de alto peso apresentou taxa de corrosão cerca de onze vezes maior que o fluido base olefina de alto peso,
+ enquanto o fluido base glicerina de baixo peso,
+ apresentou taxa de corrosão cerca de 20% maior que o fluido base olefina de baixo peso,
+ evidenciando o poder corrosivo dos fluidos contendo maior teor de cloreto e sólidos.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Iyasara2015"
+literal "true"
+
+\end_inset
+
+ também observaram maior perda de massa (0,052 g em 7 dias de exposição) e maior taxa de corrosão (5,14 mpy) para fluidos aquosos contendo maior teor de sal em comparação com fluidos à base de óleo (0,02 g de perda de massa e 1,98 mpy em 7 dias de exposição).
+ Segundo os autores,
+ a maior perda de peso associada ao fluido à base de água salgada foi resultado da alta concentração de íons cloreto,
+ os quais têm efeitos concomitantes de alta indução de corrosão.
+ Os íons Cl- combinam-se com os íons de ferro (II) (Fe2+) do aço para produzir FeCl2 (produto sólido),
+ que reage posteriormente com o oxigênio e a água dissolvidos.
+ Portanto,
+ fluidos à base de água (FBA),
+ especialmente aqueles contendo cloretos,
+ tendem a ser mais agressivos que fluidos à base de óleo (OBM) e fluidos sintéticos,
+ devido à maior condutividade iônica do meio 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Iyasara2015"
+literal "true"
+
+\end_inset
+
+.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Mameng2014"
+literal "true"
+
+\end_inset
+
+ estudaram sobre as propriedades corrosivas da exposição a íons cloro em diferentes aços inoxidáveis e mostraram que uma alta concentração de íons cloro resulta em maior corrosão,
+ como ocorreu com o aço em contato com o fluido FBG2 avaliado neste trabalho.
+ Adicionalmente,
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Azeez2022"
+literal "true"
+
+\end_inset
+
+ relatam que o poder inibidor de aditivos poliméricos e surfactantes,
+ tais como CMC,
+ influenciam diretamente a taxa de corrosão,
+ pois tais componentes podem formar filmes protetores na superfície metálica,
+ reduzindo a penetração de espécies corrosivas.
+ De forma semelhante,
+ polissacarídeos aniônicos (como goma xantana) tendem a adsorver na superfície do aço,
+ formando uma camada viscoelástica que pode dificultar o transporte difusivo de espécies corrosivas (O₂,
+ íons Cl⁻) até o metal,
+ causando um efeito protetor indireto.
+ Quando essa camada se mantém íntegra,
+ reduz a taxa de corrosão 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Mobin2016"
+literal "true"
+
+\end_inset
+
+.
+ Isto pode ter contribuído,
+ em adição à presença de inibidor de corrosão,
+ para aumentar o efeito anticorrosivo do fluido de perfuração FBA2.
+\end_layout
+
+\begin_layout Section
+RELAÇÃO ENTRE REOLOGIA,
+ COMPOSIÇÃO QUÍMICA E CORROSÃO DOS FLUIDOS DE PERFURAÇÃO
+\begin_inset Index idx
+range none
+pageformat default
+status open
+
+\begin_layout Plain Layout
+PERFURAÇÃO
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:RELAÇÃO-ENTRE-REOLOGIA,"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A composição dos fluidos de perfuração tem influência direta sobre suas propriedades reológicas e,
+ consequentemente,
+ sobre o seu potencial corrosivo 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Shokoya1996"
+literal "false"
+
+\end_inset
+
+.
+ Os fluidos formulados (Tabela 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Descrição-dos-componentes"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+) apresentam variações significativas quanto ao tipo de fase líquida (salmoura ou salmoura glicerinada),
+ concentração de sólidos (NaCl,
+ CaCO3,
+ outros) e presença de aditivos protetores (inibidor de corrosão),
+ o que explica o desempenho distinto observado nos ensaios reológicos e de corrosão.
+ Os fluidos FBA1 e FBA2,
+ formulados com salmoura como fase contínua e teores elevados de goma xantana (2,1 g) e hidroxipropil amido (HPA,
+ 5,5 g),
+ exibiram alta viscosidade e limites de escoamento elevados antes e após o envelhecimento térmico.
+ Esses resultados indicam uma estrutura coloidal mais coesa,
+ capaz de sustentar sólidos em suspensão e resistir à degradação térmica.
+ A presença de HPA e goma xantana favorece a formação de uma rede polimérica estável,
+ conferindo comportamento pseudoplástico e tixotrópico típico de fluidos de boa qualidade 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Caenn2011"
+literal "false"
+
+\end_inset
+
+.
+ Além disso,
+ o fluido FBA2 contém 0,5 g de inibidor de corrosão,
+ o que explica sua baixa taxa de corrosão (1,861 mpy),
+ evidenciando que a combinação entre estabilidade reológica e aditivação química anticorrosiva atua sinergicamente na proteção metálica 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Huang2021"
+literal "false"
+
+\end_inset
+
+.
+ Os fluidos FBG1 e FBG2,
+ em contrapartida,
+ apresentam fase líquida composta por glicerina e salmoura,
+ menor concentração de polímeros e maior fração de sólidos (CaCO₃).
+ A formulação FBG2 contém 35 g de NaCl,
+ responsável por elevar a condutividade elétrica do sistema e,
+ portanto,
+ intensificar os processos corrosivos 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Iyasara2015"
+literal "false"
+
+\end_inset
+
+.
+ O sal também pode promover a desestabilização da goma xantana e a ruptura de ligações hidrogênio,
+ acelerando a degradação térmica e química do fluido 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Davoodi2023"
+literal "false"
+
+\end_inset
+
+.
+ Além disso,
+ provavelmente a presença de altos teores de CaCO₃ (50 g) contribua para a abrasividade e formação de depósitos sobre o metal,
+ o que pode intensificar a corrosão localizada.
+ No entanto,
+ esta hipótese não foi avaliada neste trabalho.
+ Essa combinação de fatores justifica o pior desempenho do fluido FBG2,
+ que apresentou a maior taxa de corrosão (16,399 mpy).
+ Quando se faz uma comparação entre fluidos base aquoso e fluidos à base de glicerina avaliados neste trabalho,
+ nota-se que a diferença observada nas taxas de corrosão entre FBA1 (3,720 mpy) e FBG1 (2,995 mpy) pode ser explicada,
+ em primeiro lugar,
+ pelo teor de salmoura:
+ FBA1 contém maior volume de salmoura (350 mL) que FBG1 (175 mL),
+ o que eleva a condutividade do meio e a atividade de Cl⁻,
+ favorecendo mecanismos de corrosão generalizada e localizada 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Safian2024"
+literal "false"
+
+\end_inset
+
+.
+ Em segundo lugar,
+ a presença de glicerina em FBG1 contribui para a redução da agressividade ao diminuir a atividade da água 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Nakagawa2019"
+literal "false"
+
+\end_inset
+
+,
+ reduzir a solubilidade de oxigênio e aumentar a espessura da camada limite viscosimétrica adjacente ao metal 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Palcut2023"
+literal "false"
+
+\end_inset
+
+,
+ o que limita o transporte difusivo de espécies corrosivas.
+ De acordo com 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Nakagawa2019"
+literal "false"
+
+\end_inset
+
+,
+ a ligação de hidrogênio na água com o glicerol é forte e o movimento difusivo da água é retardado pela interação com o glicerol.
+ Portanto,
+ essa forte interação da água com o glicerol leva a uma menor atividade da água.
+ Diversos estudos investigaram o efeito do glicerol no comportamento de corrosão de materiais metálicos 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ChiUcan2014,Zubaidi2018,Sivabalan2020"
+literal "false"
+
+\end_inset
+
+.
+ Constatou-se que o glicerol pode atuar como um hidrato de gás com dupla função e inibidor de corrosão 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Sivabalan2020"
+literal "false"
+
+\end_inset
+
+.
+ Uma vantagem do glicerol é sua alta viscosidade.
+ A viscosidade de soluções de água e glicerol aumenta com o aumento da concentração de glicerol 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Takamura2012"
+literal "false"
+
+\end_inset
+
+ e esse aumento da viscosidade pode diminuir a difusão de íons na solução,
+ reduzindo assim a taxa de corrosão 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Palcut2023"
+literal "false"
+
+\end_inset
+
+.
+ Assim,
+ a combinação de menor salinidade + efeito físico da glicerina é uma possível explicação para a menor taxa de corrosão observada em FBG1.
+ Importante ressaltar que a maior concentração de polímeros (HPA e goma xantana) em FBA1 não garantiu proteção superior,
+ possivelmente porque a elevada força iônica da salmoura (350 mL) comprometeu a adsorção estável do polímero na superfície metálica 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Davoodi2023,Mobin2016"
+literal "false"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Section
+AVALIAÇÃO DA SUPERFÍCIE DOS CUPONS DE AÇO POR INSPEÇÃO VISUAL
+\begin_inset Index idx
+range none
+pageformat default
+status open
+
+\begin_layout Plain Layout
+VISUAL
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:AVALIAÇÃO-DA-SUPERFÍCIE"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A avaliação visual dos cupons metálicos,
+ mostrada na Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Comparação-visual-dos"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+,
+ complementa os resultados quantitativos das taxas de corrosão (Tabela 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Taxa-de-corrosão"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+ e Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Visualização-gráfica-da"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+),
+ permitindo identificar diferenças qualitativas no ataque sofrido em função da composição dos fluidos.
+ Em todos os casos,
+ os cupons mantiveram aspecto metálico e homogêneo,
+ indicando corrosão predominantemente uniforme e de baixa intensidade.
+ Entretanto,
+ pequenas diferenças de coloração e pequenas áreas de escurecimento evidenciam variações no grau corrosivo dos meios.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+alignment document
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Comparação visual dos cupons de aço submetidos às diferentes formulações de fluidos de perfuração
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Comparação-visual-dos"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../res/Captura de tela 2025-11-24 131804.png
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A análise da Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Comparação-visual-dos"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+ mostra que o cupom 07 (fluido FBA1) apresentou leve escurecimento e perda de brilho,
+ o que está de acordo com sua taxa de corrosão intermediária (3,720 mpy).
+ Esse comportamento está associado à maior salinidade do fluido,
+ composto por 350 mL de salmoura,
+ que eleva a condutividade eletrolítica e a atividade dos íons Cl⁻,
+ favorecendo mecanismos de corrosão generalizada 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Xu2022"
+literal "false"
+
+\end_inset
+
+.
+ O cupom 10 (fluido FBA2) exibiu a superfície mais uniforme e brilhante entre os fluidos à base aquosa,
+ o que confirma a menor taxa de corrosão (1,861 mpy).
+ Esse desempenho superior é atribuído à presença do inibidor de amônio quaternário,
+ que atua por adsorção catódica e formação de filme protetor estável,
+ reduzindo a transferência de carga entre o metal e o meio corrosivo 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Goni2024"
+literal "false"
+
+\end_inset
+
+.
+ Em relação aos cupons imersos nos fluidos base glicerina,
+ notou-se que o cupom 06 (fluido FBG1) manteve coloração uniforme e sem sinais evidentes de pite,
+ compatível com a taxa de 2,995 mpy.
+ Esse resultado evidencia o efeito mitigador da glicerina,
+ que reduz a atividade da água,
+ a solubilidade do oxigênio e a difusão de espécies agressivas através do aumento da viscosidade 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Palcut2023"
+literal "false"
+
+\end_inset
+
+.
+ Assim,
+ mesmo com menor teor de polímeros,
+ o meio de menor condutividade e mais viscoso resultou em corrosão controlada.
+ Por outro lado,
+ o cupom 02 (fluido FBG2) apresentou escurecimento acentuado,
+ sugerindo maior ataque superficial,
+ coerente com a taxa de corrosão mais elevada (16,399 mpy).
+ Embora esse fluido contenha glicerina,
+ o teor elevado de CaCO₃ (50 g) e a adição de NaCl (17,5 g) aumentaram significativamente a condutividade e favoreceram o aparecimento de corrosão localizada 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Iyasara2015"
+literal "false"
+
+\end_inset
+
+.
+ Esses resultados demonstram que a corrosividade dos fluidos é resultado da interação entre composição química,
+ estabilidade reológica e mecanismos de adsorção superficial.
+ Formulações que equilibram viscosidade,
+ baixa salinidade e aditivos anticorrosivos eficazes apresentam desempenho superior 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Davoodi2023"
+literal "false"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Section
+AVALIAÇÃO DA SUPERFÍCIE DOS CUPONS DE AÇO POR MICROSCOPIA ÓPTICA CONFOCAL
+\begin_inset Index idx
+range none
+pageformat default
+status open
+
+\begin_layout Plain Layout
+CONFOCAL
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:AVALIAÇÃO-DA-SUPERFÍCIE-1"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Micrografias-dos-cupons"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+ apresenta as micrografias obtidas por microscopia confocal dos cupons metálicos antes (branco) e após os ensaios de corrosão.
+ Para cada cupom foram registradas duas imagens,
+ correspondentes a regiões distintas do mesmo cupom,
+ de modo a evidenciar a uniformidade (ou heterogeneidade) do ataque corrosivo ao longo da superfície.
+ Os cupons do branco exibem uma superfície homogênea,
+ caracterizada por marcas paralelas decorrentes do lixamento mecânico realizado antes da análise e ausência de produtos de corrosão.
+ Essa superfície é adotada como referência para fins comparativos.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+alignment document
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Micrografias dos cupons de aço obtidas por microscopia óptica confocal em dois pontos distintos
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Micrografias-dos-cupons"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../res/Captura de tela 2025-11-24 132010.png
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A análise da Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Micrografias-dos-cupons"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+ mostra que após o ensaio são observadas algumas diferenças entre os cupons imersos nos diferentes fluidos de perfuração.
+ Observa-se nos cupons expostos ao fluido FBG2 (Cupom 02),
+ que apresentou a maior taxa de corrosão (16,399 mpy),
+ muitas regiões escuras,
+ aumento da rugosidade e perda evidente de material,
+ em comparação ao branco.
+ A distribuição relativamente difusa desses danos,
+ sem a formação dominante de cavidades profundas e isoladas,
+ indica uma possível corrosão generalizada.
+ Essa morfologia é compatível com meios contendo concentrações elevadas de cloretos,
+ como é o caso do fluido FBG2,
+ nos quais ocorre dissolução uniforme da superfície metálica 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Jones1996,Safian2024"
+literal "false"
+
+\end_inset
+
+.
+ Já o cupom 06,
+ imerso no fluido FBG1,
+ apresentou taxa intermediária (2,995 mpy).
+ Suas micrografias mostram preservação parcial das marcas de lixamento,
+ com discretas áreas de ataque distribuídas ao longo da superfície.
+ A ausência de cavidades profundas e a relativa uniformidade da degradação sugerem corrosão uniforme moderada 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Jones1996,GENTIL2022"
+literal "false"
+
+\end_inset
+
+.
+ Para o fluido FBA1 (cupom 07),
+ cuja taxa atingiu 3,720 mpy,
+ a microscopia revelou desplacamentos marcantes e cavidades irregulares,
+ indicando formação de áreas de dissolução preferencial.
+ Essa morfologia,
+ caracterizada por heterogeneidade superficial,
+ é compatível com corrosão localizada,
+ o que é compatível com este tipo de fluido à base de salmoura 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Jones1996,Safian2024"
+literal "false"
+
+\end_inset
+
+.
+ Por fim,
+ o cupom 10,
+ imerso no fluido FBA2,
+ exibiu a menor taxa de corrosão (1,861 mpy).
+ A análise morfológica revela apenas pequenas áreas de desgaste superficial e rugosidade aumentada,
+ sem formação de pites definidos ou regiões de corrosão severa.
+ Esses aspectos indicam corrosão predominantemente uniforme de baixa intensidade,
+ compatível com a presença de um filme inibidor mais estável,
+ capaz de retardar tanto a dissolução anódica quanto a difusão de espécies agressivas,
+ possivelmente devido a presença do inibidor de amônio quaternário 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Goni2024"
+literal "false"
+
+\end_inset
+
+.
+ Assim,
+ a integração entre a taxa de corrosão (perda de massa) e a morfologia superficial observada confirma a coerência dos resultados,
+ o qual pode ser resumido como segue,
+ de acordo com 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "GENTIL2022"
+literal "false"
+
+\end_inset
+
+:
+ 
+\end_layout
+
+\begin_layout Description
+(i) FBG2 promoveu o ataque mais agressivo,
+ de caráter generalizado;
+ 
+\end_layout
+
+\begin_layout Description
+(ii) FBG1 resultou em corrosão uniforme moderada;
+ 
+\end_layout
+
+\begin_layout Description
+(iii) FBA1 apresentou sinais claros de corrosão localizada;
+ 
+\end_layout
+
+\begin_layout Description
+(iv) FBA2 demonstrou o melhor desempenho anticorrosivo,
+ associado a um ataque uniforme leve.
+\end_layout
+
+\begin_layout Standard
+Essa abordagem integrada é amplamente recomendada na literatura,
+ pois a interpretação dos mecanismos corrosivos depende tanto da cinética de perda de material quanto da textura superficial resultante,
+ permitindo identificar padrões não detectáveis apenas pela análise gravimétrica 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Jones1996,GENTIL2022"
+literal "false"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_body
+\end_document

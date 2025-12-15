@@ -1,0 +1,578 @@
+#LyX 2.4 created this file. For more info see https://www.lyx.org/
+\lyxformat 620
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass abnt
+\begin_preamble
+\usepackage {graphicx}
+\usepackage {longtable}
+\usepackage {indentfirst}
+\renewenvironment{center}{\par\centering}{\par}
+
+% Comentar linhas abaixo se não estiver usando pacote abntex
+% ou se o pacote ainda não foi instalado.
+% neste caso sugere-se usar citações no padrão apalike (lembra o da anbt).
+\usepackage[alf ,abnt-etal-cite=2 , abnt-year-extra-label=yes , abnt-etal-list=0]{abntcite}
+\usepackage {helvet}
+\renewcommand {\familydefault}{\sfdefault}
+\end_preamble
+\options normaltoc, sumarioincompleto
+\use_default_options false
+\maintain_unincluded_children no
+\language brazilian
+\language_package default
+\inputencoding iso8859-1
+\fontencoding auto
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref true
+\pdf_title "Título da Monografia - Dissertação - Tese"
+\pdf_author "Nome do Autor"
+\pdf_subject "Descrever assunto"
+\pdf_keywords "Copiar do resumo"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered true
+\pdf_bookmarksopen true
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref page
+\pdf_pdfusetitle true
+\papersize a4
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_formatted_ref 0
+\use_minted 0
+\use_lineno 0
+\index Índice
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 210mm
+\paperheight 297mm
+\leftmargin 30mm
+\topmargin 25mm
+\rightmargin 20mm
+\bottommargin 20mm
+\secnumdepth 2
+\tocdepth 1
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tablestyle default
+\tracking_changes false
+\output_changes false
+\change_bars false
+\postpone_fragile_content false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\docbook_table_output 0
+\docbook_mathml_prefix 1
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Introdução
+\begin_inset Index idx
+range none
+pageformat default
+status open
+
+\begin_layout Plain Layout
+Introdução
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "cha:Introdução"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lhead{
+\backslash
+thechapter
+\backslash
+space - Introdução}
+\backslash
+rhead{}
+\backslash
+pagenumbering{arabic}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+O fluido de perfuração,
+ como um produto químico essencial na indústria petrolífera,
+ é amplamente aplicado em todas as operações de perfuração.
+ Apesar dos incidentes incessantes de falhas em equipamentos de perfuração em serviço,
+ a avaliação da corrosão do fluido de perfuração tem sido negligenciada.
+ Portanto,
+ falta correlação entre sua composição química,
+ propriedades e efeito da corrosão.
+ Diante desse cenário,
+ os efeitos da corrosão de dois fluidos de perfuração (à base de glicerina e à base de água) no aço inoxidável AISI 316L,
+ o qual é amplamente utilizado na indústria de petróleo e gás devido à sua resistência à corrosão,
+ foram investigados neste trabalho de conclusão de curso.
+ 
+\end_layout
+
+\begin_layout Section
+Escopo do Problema
+\begin_inset Index idx
+range none
+pageformat default
+status open
+
+\begin_layout Plain Layout
+Escopo do Problema
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Escopo-do-Problema"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A indústria do petróleo e gás é composta por três setores principais que englobam todas as etapas da cadeia produtiva.
+ O primeiro deles é o setor upstream,
+ responsável pelas atividades de exploração e produção,
+ que envolvem a localização e extração de petróleo bruto e gás natural,
+ tanto em áreas terrestres (onshore) quanto marítimas (offshore).
+ Esse segmento está fortemente associado ao desenvolvimento e à aplicação de tecnologias de perfuração e produção.
+ Em segundo lugar,
+ o setor midstream atua como uma ponte entre as operações upstream e downstream,
+ sendo responsável pelo transporte,
+ processamento,
+ armazenamento e comercialização do petróleo bruto e do gás natural.
+ Por fim,
+ o setor downstream compreende as refinarias e plantas petroquímicas,
+ nas quais o petróleo bruto é processado,
+ separado e refinado 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Safian2024"
+literal "false"
+
+\end_inset
+
+.
+ Em todos esses segmentos,
+ a prevenção da corrosão constitui um fator crítico para garantir a segurança operacional e a continuidade da produção.
+ Embora cada setor enfrente desafios específicos relacionados à corrosão,
+ o setor upstream,
+ especialmente nas operações de perfuração offshore,
+ apresenta problemas mais significativos devido ao contato direto com a água do mar e às condições ambientais severas 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Safian2024"
+literal "false"
+
+\end_inset
+
+.
+ A corrosão é uma ameaça global crescente à integridade das instalações de petróleo e gás,
+ cujo principal componente é o aço,
+ com seus consequentes desperdícios econômicos e riscos ambientais associados 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Samant2008"
+literal "false"
+
+\end_inset
+
+.
+ Essas instalações incluem,
+ por exemplo,
+ oleodutos,
+ plataformas e embarcações (tanques de armazenamento) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Iyasara2015"
+literal "false"
+
+\end_inset
+
+.
+ Além disso,
+ a corrosão em componentes de fundo de poço,
+ como revestimentos,
+ tubulações,
+ colares de perfuração,
+ colunas de perfuração ou brocas,
+ pode impedir o processo de perfuração,
+ levando a paradas devido a preocupações com a segurança (de acordo com as normas NORSOK D-010 e ISO 16530) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Askari2021"
+literal "false"
+
+\end_inset
+
+.
+ Os desperdícios econômicos incluem,
+ entre outros,
+ paradas,
+ perdas de produção,
+ contaminação e falhas de equipamentos;
+ enquanto os riscos ambientais incluem poluição,
+ derramamento,
+ destruição da flora e da fauna,
+ incêndios e outras fatalidades (OVRI,
+ 2004).
+ Reconhecendo a alta probabilidade de ocorrência de corrosão em atividades de perfuração,
+ as indústrias de petróleo e gás investem bilhões em tecnologias preventivas,
+ como o uso de inibidores de corrosão 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Safian2024"
+literal "false"
+
+\end_inset
+
+.
+ Um componente indispensável nessa etapa da operação de perfuração de poços é a formulação dos fluidos (ou lamas) de perfuração,
+ que desempenha um papel crítico na lubrificação da broca e facilidade na remoção eficiente de cascalhos 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Safian2024"
+literal "false"
+
+\end_inset
+
+.
+ Além disso,
+ o fluido de perfuração deve ser seguro tanto para o pessoal que o manuseia quanto para o meio ambiente e,
+ portanto,
+ não deve corroer ou causar desgaste excessivo dos equipamentos de perfuração 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Shokoya1996"
+literal "false"
+
+\end_inset
+
+.
+ Os fluidos de perfuração podem ser classificados em i) fluidos à base de água (Water Based Mud),
+ onde a água salgada,
+ água doce ou salmoura é a fase contínua;
+ ii) fluidos à base de óleo (Oil Based Mud,
+ OBM),
+ onde seu meio de dispersão é de derivados do petróleo como diesel.
+ Aqui incluem-se os fluidos de perfuração sintéticos (Synthetic Based Mud,
+ SBM) propostos por 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Growcock1994,Growcock1994a"
+literal "false"
+
+\end_inset
+
+,
+ os quais possuem a eficiência dos fluidos base óleo,
+ porém,
+ apresentam menor toxicidade e/ou maior biodegradabilidade;
+ iii) fluidos à base de ar ou gás natural,
+ os quais normalmente limitam-se a perfurações de formações de baixa permeabilidade ou formações com rochas muito duras 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Iyasara2015,BERRY2008"
+literal "false"
+
+\end_inset
+
+.
+ Mais recentemente,
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Correa2017"
+literal "false"
+
+\end_inset
+
+formularam fluidos de perfuração aquoso à base de glicerina que são ecologicamente corretos,
+ de baixa toxicidade e com performance técnica semelhante aos fluidos sintéticos conhecidos 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Malgaresi2018"
+literal "false"
+
+\end_inset
+
+.
+ Cada fluido de perfuração possui características físico-químicas distintas,
+ que podem afetar de maneira diferente os materiais metálicos em contato durante a operação.
+ Por exemplo,
+ os fluidos OBM são menos corrosivos que os WBM por não serem eletricamente condutores 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Darley1988"
+literal "false"
+
+\end_inset
+
+.
+ Por outro lado,
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "dacruz2019avaliacao"
+literal "false"
+
+\end_inset
+
+ mostrou que fluidos à base de glicerina são mais corrosivos que fluidos à base de olefina em amostras de ferro fundido niquelado.
+ A corrosividade dos fluidos,
+ portanto,
+ torna-se um fator determinante para a escolha do tipo mais adequado,
+ levando-se em consideração as condições operacionais do poço,
+ como temperatura,
+ pressão e composição química do meio 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Shokoya1996"
+literal "false"
+
+\end_inset
+
+.
+ Apesar dos avanços em tecnologias anticorrosivas e na formulação de fluidos mais estáveis,
+ ainda existem lacunas no conhecimento sobre o comportamento comparativo dos diferentes tipos de fluidos sob condições semelhantes de operação.
+ Considerando que a temperatura é um fator agravante da corrosão,
+ simular as condições térmicas de um poço real é uma estratégia eficaz para entender a agressividade dos fluidos em contato com os aços normalmente utilizados na indústria petrolífera 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "AlYasiri2017"
+literal "false"
+
+\end_inset
+
+.
+ Diante disso,
+ surge o seguinte problema que motivou este trabalho de conclusão de curso:
+ qual dos tipos de fluidos de perfuração – fluidos à base de glicerina ou à base de água – apresenta menor potencial de corrosão em aço inoxidável AISI 316L quando submetido a condições térmicas simuladas de um poço de petróleo?
+ A realização deste estudo se justifica pela relevância técnica e econômica da corrosão na indústria do petróleo,
+ sendo essencial para apoiar decisões mais assertivas na escolha de fluidos de perfuração que prolonguem a vida útil dos equipamentos metálicos.
+ Além disso,
+ contribui para a redução de custos operacionais,
+ aumenta a segurança das operações e minimiza os riscos de impactos ambientais associados a falhas estruturais.
+ A análise comparativa proposta poderá subsidiar futuros trabalhos de pesquisa e desenvolvimento de novas formulações de fluidos com menor impacto corrosivo.
+ 
+\end_layout
+
+\begin_layout Section
+Objetivos
+\begin_inset Index idx
+range none
+pageformat default
+status open
+
+\begin_layout Plain Layout
+Objetivos
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Objetivos"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Os objetivos deste trabalho são:
+\end_layout
+
+\begin_layout Itemize
+Objetivo geral:
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+O presente trabalho teve como objetivo geral investigar o comportamento corrosivo de fluidos de perfuração aquoso à base de glicerina e à base de água em contato com o aço inoxidável AISI 316L,
+ sob condições térmicas simuladas de um ambiente de poço petrolífero,
+ visando compreender os efeitos dessas formulações sobre a integridade do material.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Objetivos específicos:
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Avaliar o comportamento corrosivo de fluidos de perfuração à base de glicerina e de água,
+ em contato com amostras de aço inoxidável AISI 316L;
+ 
+\end_layout
+
+\begin_layout Itemize
+Identificar as características físico-químicas dos fluidos de perfuração que influenciam o processo corrosivo;
+ 
+\end_layout
+
+\begin_layout Itemize
+Determinar a taxa de corrosão dos corpos de prova por meio de ensaios de perda de massa;
+ 
+\end_layout
+
+\begin_layout Itemize
+Analisar a superfície das amostras após a exposição aos fluidos,
+ utilizando técnicas de microscopia óptica confocal,
+ a fim de caracterizar produtos de corrosão e mecanismos predominantes;
+\end_layout
+
+\begin_layout Itemize
+Estabelecer parâmetros comparativos entre os tipos de fluido com base nos danos morfológicos e nas alterações superficiais observadas nas amostras metálicas após os ensaios;
+\end_layout
+
+\begin_layout Itemize
+Correlacionar os resultados de corrosão com as propriedades físico-químicas dos fluidos analisados,
+ identificando os fatores mais críticos sob as condições simuladas;
+ 
+\end_layout
+
+\begin_layout Itemize
+Comparar o desempenho dos fluidos em termos de eficiência anticorrosiva e estabilidade térmica,
+ visando indicar o sistema mais adequado às condições operacionais simuladas.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Organização do Documento
+\begin_inset Index idx
+range none
+pageformat default
+status open
+
+\begin_layout Plain Layout
+Organização do Documento
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Organizacao-do-Documento"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Este trabalho está organizado em cinco capítulos.
+ No capítulo 1,
+ apresenta-se a introdução,
+ com a contextualização do tema,
+ a justificativa,
+ a motivação,
+ a delimitação do problema e os objetivos da pesquisa.
+ O capítulo 2 é destinado à revisão bibliográfica,
+ onde são abordados os conceitos fundamentais sobre corrosão,
+ tipos de fluidos de perfuração,
+ propriedades dos aços utilizados na indústria petrolífera e estudos anteriores relevantes ao tema.
+ No capítulo 3,
+ descreve-se a metodologia adotada,
+ detalhando a abordagem da pesquisa,
+ os procedimentos experimentais e os critérios de análise.
+ O capítulo 4 apresenta os resultados obtidos por meio do estudo de caso,
+ com a exposição das condições experimentais e a análise dos dados referentes à corrosão das amostras metálicas.
+ No capítulo 5,
+ apresenta-se as conclusões da pesquisa,
+ destacando os principais resultados e sugestões para trabalhos futuro.
+ Por fim,
+ tem-se as referências do trabalho.
+ 
+\end_layout
+
+\end_body
+\end_document

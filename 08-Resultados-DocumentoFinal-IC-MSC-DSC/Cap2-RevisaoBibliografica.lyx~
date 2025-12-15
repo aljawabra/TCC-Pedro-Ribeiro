@@ -1,0 +1,2491 @@
+#LyX 2.4 created this file. For more info see https://www.lyx.org/
+\lyxformat 620
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass abnt
+\begin_preamble
+\usepackage {graphicx}
+\usepackage {longtable}
+\usepackage {indentfirst}
+\renewenvironment{center}{\par\centering}{\par}
+\end_preamble
+\use_default_options false
+\master Monografia-Dissertacao-Tese-master.lyx
+\maintain_unincluded_children no
+\language brazilian
+\language_package default
+\inputencoding iso8859-1
+\fontencoding auto
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement ph
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref false
+\papersize a4
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_formatted_ref 0
+\use_minted 0
+\use_lineno 0
+\index Índice
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 210mm
+\paperheight 297mm
+\leftmargin 30mm
+\topmargin 25mm
+\rightmargin 20mm
+\bottommargin 20mm
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tablestyle default
+\tracking_changes false
+\output_changes false
+\change_bars false
+\postpone_fragile_content false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\docbook_table_output 0
+\docbook_mathml_prefix 1
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lhead{
+\backslash
+thechapter
+\backslash
+space - Revisão Bibliográfica} 
+\backslash
+rhead{} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Revisão Bibliográfica
+\begin_inset Index idx
+range none
+pageformat default
+status open
+
+\begin_layout Plain Layout
+Revisão Bibliográfica
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "cha:Revisão-Bibliográfica"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Esse capítulo reúne os principais conceitos e fundamentos técnicos que sustentam a análise proposta neste trabalho de conclusão de curso.
+ Por meio da revisão bibliográfica,
+ busca-se contextualizar os elementos essenciais para a compreensão da corrosividade dos fluidos de perfuração sobre aços aplicados na indústria do petróleo,
+ com base em publicações científicas,
+ normas técnicas e literatura especializada.
+ Inicialmente,
+ tem-se um panorama geral sobre a indústria petrolífera,
+ destacando suas principais operações e a importância da perfuração de poços.
+ Em seguida,
+ uma abordagem do papel dos fluidos de perfuração,
+ suas classificações,
+ composições e funções operacionais.
+ Por fim,
+ discute-se os mecanismos de corrosão em ambientes de perfuração e os fatores que influenciam a degradação dos aços em contato com diferentes tipos de fluidos,
+ estabelecendo a base teórica para a análise comparativa desenvolvida nos capítulos seguintes.
+ 
+\end_layout
+
+\begin_layout Section
+INDÚSTRIA PETROLÍFERA – Considerações Gerais
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:INDUSTRIA PETROLIFERA"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+O petróleo consolidou-se ao longo do tempo como um dos recursos mais estratégicos do mundo moderno,
+ não apenas por seu elevado potencial energético,
+ mas também pela forte influência que exerce sobre as dinâmicas políticas e econômicas globais.
+ Seja em países produtores ou importadores,
+ sua presença impacta diretamente decisões geopolíticas,
+ acordos comerciais e o posicionamento internacion6al das nações.
+ Desde as primeiras descobertas de reservas e o início da exploração em larga escala,
+ o petróleo ganhou destaque na matriz energética mundial.
+ Esse protagonismo ficou ainda mais evidente nas décadas de 1970 e 1980,
+ quando chegou a representar cerca da metade de toda a energia consumida globalmente,
+ refletindo a profunda dependência da sociedade em relação a esse recurso não renovável 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Candido2021"
+literal "false"
+
+\end_inset
+
+.
+ Na configuração atual da sociedade e do setor produtivo,
+ o petróleo representa um recurso estratégico,
+ tanto pelo seu valor energético quanto pela ampla gama de aplicações industriais.
+ Além de ser uma das principais fontes de energia utilizadas globalmente,
+ seus derivados são amplamente empregados como matéria-prima na fabricação de insumos e produtos essenciais,
+ como combustíveis,
+ lubrificantes,
+ polímeros,
+ solventes e fertilizantes.
+ Essa versatilidade faz com que o petróleo tenha um papel estruturante na economia e na engenharia moderna,
+ integrando cadeias produtivas complexas e contribuindo diretamente para o desenvolvimento de diversas tecnologias e processos industriais 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "IEA2023"
+literal "false"
+
+\end_inset
+
+.
+ O cenário da produção de petróleo no Brasil em 2023 reforça o papel estratégico do país no setor energético global.
+ Com uma média diária superior a 3,4 milhões de barris,
+ a produção nacional cresceu mais de 12% em relação ao ano anterior,
+ ultrapassando a marca de 1,2 bilhão de barris ao longo do ano.
+ Esse crescimento foi impulsionado principalmente pelo avanço do pré-sal,
+ que respondeu por mais de três quartos da produção total e atingiu uma média de 949 milhões de barris por ano.
+ A atividade offshore continua sendo predominante,
+ representando quase toda a produção nacional,
+ com destaque absoluto para o estado do Rio de Janeiro,
+ que sozinho foi responsável por mais de 85% do total.
+ São Paulo e Espírito Santo completam a lista dos maiores produtores,
+ demonstrando a concentração da atividade em algumas regiões costeiras específicas 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ANP2024"
+literal "false"
+
+\end_inset
+
+.
+ A extração do petróleo envolve um conjunto de operações complexas que se inicia com a perfuração do solo até a rocha reservatório,
+ onde o hidrocarboneto se encontra armazenado 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Liu2022"
+literal "false"
+
+\end_inset
+
+.
+ A perfuração e o desenvolvimento de recursos em formações profundas são,
+ portanto,
+ importantes direções de pesquisa em engenharia de petróleo,
+ tanto no presente quanto no futuro 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Li2016,Vedachalam2016"
+literal "false"
+
+\end_inset
+
+.
+ Reservatórios com profundidade superior a 4,5 km são frequentemente chamados de reservatórios profundos 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Yang2019"
+literal "false"
+
+\end_inset
+
+.
+ Atualmente,
+ os reservatórios mais profundos encontrados têm aproximadamente 9 km,
+ e a temperatura do fundo do poço excede 180 °C 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Aftab2017"
+literal "false"
+
+\end_inset
+
+.
+ Durante o processo de perfuração,
+ o fluido de perfuração atua como agente de transporte para material de ponderação e cascalhos,
+ equilibra a pressão da formação,
+ transmite informações sobre a formação e lubrifica as ferramentas de perfuração 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Benayada2003,Baltoiu2006"
+literal "false"
+
+\end_inset
+
+.
+ O desempenho do fluido de perfuração é,
+ portanto,
+ fundamental para a extração eficaz de recursos em reservatórios profundos 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Liu2022"
+literal "false"
+
+\end_inset
+
+.
+ No Brasil,
+ a propriedade do subsolo e dos recursos minerais,
+ incluindo o petróleo e o gás natural,
+ é da União.
+ No entanto,
+ a exploração dessas riquezas pode ser delegada a empresas públicas ou privadas por meio de processos licitatórios organizados pela Agência Nacional do Petróleo,
+ Gás Natural e Biocombustíveis (ANP).
+ Esses processos ocorrem sob regimes jurídicos específicos,
+ como concessão,
+ partilha de produção ou cessão de direitos contratuais.
+ Cabe à ANP a responsabilidade de conduzir estudos geológicos e geofísicos para mapear o potencial energético do território nacional,
+ estruturar e gerir o banco de dados técnicos dessas pesquisas,
+ propor ao governo as áreas com viabilidade exploratória e operacionalizar as rodadas de licitação.
+ Além disso,
+ a agência formaliza os contratos em nome da União,
+ garantindo a legalidade e a transparência nas atividades do setor de óleo e gás 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ANP2020"
+literal "false"
+
+\end_inset
+
+.
+ A Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Etapas-do-ciclo"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+ ilustra as etapas do ciclo de exploração e produção de petróleo.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+alignment document
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Etapas do ciclo de exploração e produção de petróleo.
+ São quatro etapas essenciais que compõem o ciclo de vida de qualquer projeto de E&P:
+ (1) Encontrar a reserva,
+ (2) construir a infraestrutura para extração,
+ (3) extrair o petróleo e (4) desativar e desmobilizar a infraestrutura 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Etapas-do-ciclo"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/OutrosProjetos/res/Captura de tela 2025-11-24 050939.png
+	rotateOrigin centerTop
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Nos países com grandes reservas petrolíferas,
+ como o Brasil,
+ a exploração em ambiente marítimo é uma prática consolidada e estratégica.
+ A extração de petróleo no mar,
+ especialmente em águas profundas e ultra profundas,
+ demanda tecnologias mais sofisticadas e uma infraestrutura específica,
+ como plataformas fixas,
+ autolaváveis,
+ semissubmersíveis e navios-sonda.
+ Esses sistemas são projetados para suportar as condições extremas do ambiente oceânico e realizar a perfuração com precisão em grandes profundidades.
+ O destaque do Brasil nesse cenário se deve,
+ principalmente,
+ à província do pré-sal,
+ considerada uma das maiores reservas mundiais de petróleo.
+ A exploração dessas jazidas impulsionou o desenvolvimento tecnológico da indústria nacional,
+ consolidando o país como um dos principais exportadores globais e atraindo expressivos investimentos no setor de óleo e gás 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Bruhn2017"
+literal "false"
+
+\end_inset
+
+.
+ Considerando esse clico de exploração e produção de petróleo,
+ uma das fases mais críticas é a perfuração dos poços.
+ A perfuração é uma tecnologia de engenharia que constrói um canal da superfície até o subsolo.
+ Ela não é apenas o método mais essencial para a obtenção de recursos subterrâneos,
+ incluindo petróleo bruto,
+ gás natural,
+ água e calor terrestre,
+ mas também indispensável para a aquisição de informações geológicas que impulsionam a pesquisa em geociências 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "HANSON2003,Hou2018"
+literal "false"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Subsection
+FLUIDOS DE PERFURAÇÃO – DEFINIÇÃO,
+ CLASSIFICAÇÃO E FUNÇÕES
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:FLUIDOS-DE-PERFURAÇÃO-1"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+O fluido de perfuração é um fluido complexo composto por diversos aditivos com múltiplas funções,
+ incluindo a suspensão e o transporte de detritos de rocha,
+ a prevenção do colapso do poço,
+ o equilíbrio da pressão da formação,
+ a proteção de reservatórios de petróleo e gás,
+ o resfriamento e a lubrificação dos equipamentos de perfuração e a transmissão da potência hidráulica 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Growcock2005"
+literal "false"
+
+\end_inset
+
+.
+ O fluido de perfuração influencia diretamente o avanço da perfuração e determina o sucesso da construção do poço.
+ Desde que a água limpa passou a ser usada como fluido de perfuração na década de 1880,
+ a tecnologia de fluidos de perfuração evoluiu ao longo de mais de um século.
+ Centenas de aditivos e dezenas de sistemas de fluidos de perfuração foram desenvolvidos,
+ desempenhando um papel insubstituível na exploração e desenvolvimento de recursos de petróleo e gás 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "He2023"
+literal "false"
+
+\end_inset
+
+.
+ Para garantir uma perfuração eficiente e segura,
+ a escolha do fluido de perfuração deve considerar uma série de propriedades fundamentais.
+ É essencial que o fluido possua estabilidade química e mecânica,
+ especialmente nas paredes do poço,
+ de modo a evitar colapsos e interferências na operação.
+ Além disso,
+ deve permitir a separação eficiente dos cascalhos na superfície,
+ facilitando o controle do material removido.
+ Outro ponto crucial é que o fluido não cause danos às formações geológicas atravessadas,
+ mantendo sua integridade.
+ Também é necessário que seja de fácil tratamento físico e químico,
+ e que tenha baixo potencial corrosivo e abrasivo sobre os equipamentos metálicos utilizados.
+ Por fim,
+ o fluido deve contribuir para a correta interpretação das características das rochas perfuradas,
+ auxiliando na análise geológica da formação 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Caenn2011,Zhao2019"
+literal "false"
+
+\end_inset
+
+.
+ De acordo com o tipo de meio de dispersão,
+ o fluido de perfuração pode ser classificado em fluido de perfuração à base de água,
+ fluido de perfuração à base de óleo e fluido de perfuração à base de gás.
+ O fluido de perfuração à base de água é o tipo mais utilizado e sempre ocupa o lugar dominante.
+ O fluido de perfuração polimérico (FAP) é um tipo essencial de fluido de perfuração à base de água.
+ Em um sentido amplo,
+ o fluido de perfuração à base de água que utiliza um polímero como principal aditivo é considerado um FAP.
+ Apresentando vantagens como baixo teor de sólidos,
+ alta taxa de penetração (rate of penetration,
+ ROP),
+ propriedades reológicas fáceis de controlar e baixo custo,
+ o FAP tornou-se um tipo de fluido de perfuração com o desenvolvimento mais rápido e expressivo e a mais ampla aplicação 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Growcock2005"
+literal "false"
+
+\end_inset
+
+.
+ Desde a invenção do fluido de perfuração não disperso com baixo teor de sólidos na década de 1960
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Field1968,Parizad2018"
+literal "false"
+
+\end_inset
+
+,
+ o fluido de perfuração entrou na fase de desenvolvimento científico.
+ Diversos aditivos poliméricos funcionais e sistemas de fluido de perfuração foram inventados,
+ solucionando muitos problemas de perfuração,
+ apoiando fortemente o desenvolvimento de recursos de petróleo e gás e impulsionando significativamente o desenvolvimento da tecnologia de fluidos de perfuração 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "He2023"
+literal "false"
+
+\end_inset
+
+.
+ Fluidos de perfuração à base de água são amplamente utilizados na indústria do petróleo,
+ especialmente em campos de baixa pressão e baixa temperatura.
+ Esses fluidos são baratos,
+ ecologicamente corretos,
+ não tóxicos e biodegradáveis.
+ No entanto,
+ sua aplicação é significativamente restrita em áreas de alta pressão e alta temperatura (HPHT),
+ em rochas com alto teor de argila e em poços de geometria complexa 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Gandelman2007"
+literal "false"
+
+\end_inset
+
+.
+ Nesses casos,
+ são utilizados fluidos sintéticos à base de óleo.
+ Contudo,
+ esses fluidos são tóxicos,
+ tem baixa biodegradabilidade e são significativamente mais caros do que os fluidos à base de água.
+ A modelagem matemática e laboratorial permite avaliar a eficiência tecnológica dos fluidos de perfuração,
+ levando ao desenvolvimento de novas composições de fluidos.
+ O principal problema da perfuração com sobrepressão é o dano à formação,
+ induzido pela invasão do fluido de perfuração ao redor do poço e pela torta de filtração externa irremovível.
+ A permeabilidade da formação próxima ao poço diminui devido à invasão do fluido de perfuração com partículas 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Jiao1994,Gandelman2007,You2015"
+literal "false"
+
+\end_inset
+
+.
+ Partículas de ponderação e polímeros são adicionados ao fluido de perfuração para reduzir a invasão,
+ minimizar os danos próximos ao poço e formar uma camada fina e pouco permeável na parede do poço 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Sharma2012,Martins2004"
+literal "false"
+
+\end_inset
+
+.
+ Além disso,
+ a toxicidade do fluido e outras exigências ambientais restringem as aplicações convencionais de fluidos de perfuração.
+ Portanto,
+ inúmeras formulações de fluidos de perfuração têm sido testadas para tentar atender às políticas ambientais e prevenir,
+ mitigar ou remover os danos à formação 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Bedrikovetsky2001,Martins2004"
+literal "false"
+
+\end_inset
+
+.
+ Diversas tentativas de criar fluidos de perfuração ambientalmente amigáveis e de baixa toxicidade foram apresentadas na literatura.
+ Li et al.,
+ (2015),
+ propuseram um fluido de perfuração de emulsão inversa à base de biodiesel (BBDF) produzido a partir de óleo de cozinha usado.
+ Essa formulação de perfuração apresentou rápida degradação e valores de lubricidade,
+ parâmetros reológicos e API aceitáveis para perfuração.
+ No entanto,
+ o óleo de cozinha usado,
+ utilizado no fluido de perfuração,
+ precisa ser processado por meio de reação de transesterificação,
+ um processo tecnológico complexo.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Amanullah2016"
+literal "false"
+
+\end_inset
+
+,
+ desenvolveram um material ecológico avançado para ser utilizado como aditivo para controle de perda de fluido.
+ O pó de semente de tâmara (PST),
+ um resíduo agrícola,
+ foi utilizado como aditivo para fluido de perfuração à base de água doce e salgada.
+ Observou-se que a adição de uma pequena quantidade de PST (6 g) ao fluido convencional à base de água causava uma diminuição significativa na perda de filtrado API,
+ e essa adição não afetava os parâmetros reológicos.
+ No entanto,
+ a nova formulação do fluido de perfuração ainda não está pronta para aplicações industriais.
+ As interações entre esse fluido de perfuração e a formação potencial não foram estudadas.
+ O trabalho não relatou os danos que o PST pode causar à permeabilidade do reservatório.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Yang2019"
+literal "false"
+
+\end_inset
+
+,
+ desenvolveram um fluido de perfuração à base de água salgada utilizando nanopartículas de sílica e materiais ecologicamente corretos para formação de gás de xisto.
+ Os fluidos de perfuração,
+ denominados NPBMs (fluido salino à base de nano-sílica e aditivos Pure-bore),
+ apresentaram alto desempenho em resistência térmica,
+ parâmetros reológicos e lubrificação.
+ Entretanto,
+ a formulação inclui alguns materiais caros para evitar o inchamento do xisto,
+ como o material Pure-bore.
+ Além disso,
+ foram relatados problemas de agregação de nanopartículas no fluido de perfuração.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Correa2017"
+literal "false"
+
+\end_inset
+
+ desenvolveu fluidos aquoso base glicerina,
+ os quais apresentam características de fluidos base água,
+ especialmente em relação às questões ambientais.
+ Quanto à performance técnica,
+ os fluidos são semelhantes aos fluidos sintéticos.
+ De acordo com 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Correa2017"
+literal "false"
+
+\end_inset
+
+ o fluido glicerina pode ser considerado um sistema multiuso de fluido que pode ser utilizado para perfurar desde reservatórios de gás de baixa permeabilidade,
+ formação com folhelhos reativos,
+ reservatórios carbonáticos do pré-sal até zonas que atravessam o sal sem provocar sua dissolução.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "BUENO2018"
+literal "false"
+
+\end_inset
+
+ avaliou a estabilidade térmica e dinâmica ao longo do tempo de envelhecimento de fluidos de perfuração base glicerina contendo diferentes concentrações de sal e aditivados com polímeros goma xantana e CMC e observou que os fluidos que continha maior teor de sal apresentaram maior instabilidade no parâmetro reológico de viscosidade plástica e maior viscosidade versus taxa de cisalhamento,
+ se comparada aos fluidos de menor teor de sal.
+ Além disso,
+ os fluidos formulados com glicerina com adição de diferentes concentrações de NaCl contendo goma xantana e CMC demonstraram boa estabilidade até 112 h de envelhecimento no que se refere à viscosidade através do tempo,
+ confirmando seu bom desempenho sob temperatura constante de 200 °F e cisalhamento a cada 16 h de envelhecimento.
+ Durante a perfuração de um poço,
+ o fluido desempenha diversas funções essenciais para garantir a segurança e a eficiência da operação.
+ Uma de suas principais responsabilidades é a remoção dos cascalhos gerados pela broca,
+ transportando-os até a superfície por meio de suspensão (Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Ilustração-esquemática-mostrando"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+).
+ Além disso,
+ o fluido deve exercer uma pressão hidrostática suficiente para superar a pressão interna das formações geológicas,
+ evitando assim o risco de kick —
+ influxo inesperado de fluidos —
+ e prevenindo acidentes mais graves,
+ como o blowout.
+ Outro papel fundamental é o de selar as formações porosas,
+ como arenitos e carbonatos,
+ utilizando partículas sólidas que formam um revestimento protetor nas paredes do poço.
+ Esse reboco impede a penetração do fluido nas rochas,
+ protegendo o meio ambiente e mantendo a estabilidade estrutural do poço 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Thomas2001,Darley1988"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+alignment document
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Ilustração esquemática mostrando o sistema de perfuração com a trajetória do fluido de perfuração 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Ilustração-esquemática-mostrando"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/OutrosProjetos/res/Captura de tela 2025-11-24 051526.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A avaliação das propriedades do fluido de perfuração é um fator essencial para garantir o bom desempenho das atividades no poço.
+ A realização de testes-piloto durante a operação permite monitorar e ajustar o comportamento do fluido em tempo real,
+ assegurando que ele esteja apto a cumprir suas funções de forma eficiente.
+ Esses testes orientam os tratamentos necessários,
+ que são fundamentais para manter a estabilidade e a funcionalidade do fluido ao longo da perfuração.
+ As propriedades dos fluidos,
+ podem ser divididas em duas categorias principais:
+ físicas e químicas.
+ As propriedades físicas são características mensuráveis em qualquer tipo de fluido,
+ como densidade,
+ viscosidade e pressão,
+ enquanto as propriedades químicas são utilizadas para distinguir entre diferentes formulações,
+ sendo determinantes na seleção do fluido mais adequado para cada tipo de formação geológica 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Thomas2001,Darley1988"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+PROPRIEDADES DOS FLUIDOS DE PERFURAÇÃO
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:PROPRIEDADES-DOS-FLUIDOS"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Independente da base utilizada considera-se a reologia,
+ as forças géis (inicial e final),
+ a densidade,
+ os parâmetros de filtração e a reatividade de folhelhos como as quatro propriedades básicas para definir um bom desempenho para um fluido de perfuração.
+ Estas propriedades devem ser monitoradas durante a operação de perfuração de poços seguindo os testes padronizados pelo API,
+ 1991.
+ Cada poço tem uma característica específica e,
+ por isso,
+ é necessário o controle das propriedades físicas e químicas dos fluidos de perfuração 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Thomas2001"
+literal "false"
+
+\end_inset
+
+.
+ O fenômeno tixotrópico tem papel essencial no desempenho dos fluidos de perfuração,
+ pois evita a sedimentação dos cascalhos gerados durante a perfuração e garante a estabilidade quando há interrupção na circulação 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "TEHRANI2009"
+literal "false"
+
+\end_inset
+
+.
+ Para alcançar o comportamento reológico não-Newtoniano desejado,
+ são empregados modificadores reológicos,
+ como ácidos graxos,
+ poliamidas e argilas organofílicas em fluidos de base oleosa sintética 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Bergane2020"
+literal "false"
+
+\end_inset
+
+,
+ enquanto a goma xantana se destaca como principal aditivo nos fluidos de base aquosa.
+ Nesses casos,
+ o fluido tende a se gelificar em repouso,
+ e as estruturas moleculares formadas pelos aditivos reológicos mantêm os sólidos suspensos.
+ Quando o fluido volta a ser movimentado,
+ essas estruturas se rompem devido ao cisalhamento,
+ reduzindo a viscosidade e quebrando o gel formado.
+ Esse processo,
+ denominado sol-gel,
+ é característico dos fluidos não-Newtonianos:
+ em baixas taxas de cisalhamento apresentam maior viscosidade,
+ enquanto em altas taxas a viscosidade se reduz.
+ A força de gel,
+ parâmetro reológico de grande relevância,
+ quantifica esse comportamento,
+ sendo expressa como força inicial (GEL10’ ou Go,
+ em lb/100 ft²) e força final (GEL10’’ ou Gf,
+ em lb/100 ft²).
+ A diferença entre esses valores reflete o grau de tixotropia do sistema 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Young2012,MACHADO2022"
+literal "false"
+
+\end_inset
+
+.
+ O fluxo de um fluido de perfuração é descrito por parâmetros reológicos como a viscosidade plástica (cP) e o limite de escoamento (lb/100 ft²),
+ que influenciam diretamente no cálculo das perdas de carga no interior da coluna e na eficiência do transporte de cascalhos 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Frigaard2017"
+literal "false"
+
+\end_inset
+
+.
+ Entretanto,
+ valores excessivos desses parâmetros podem provocar erosão nas paredes do poço devido à elevada capacidade de carreamento.
+ A viscosidade plástica representa a resistência interna do fluido ao escoamento e está associada à concentração e ao grau de interação entre as partículas sólidas suspensas.
+ Quanto maior a quantidade de sólidos,
+ maior tende a ser a viscosidade plástica.
+ Além disso,
+ a diminuição do tamanho das partículas também contribui para o aumento da viscosidade,
+ em virtude da ampliação da área superficial disponível para interação 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Frigaard2017"
+literal "false"
+
+\end_inset
+
+.
+ O limite de escoamento,
+ por sua vez,
+ indica a tensão mínima necessária para iniciar o movimento do fluido e reflete as forças de atração entre partículas.
+ Esse parâmetro funciona como um indicador do desvio em relação ao comportamento de um fluido Newtoniano.
+ O limite de escoamento pode ser reduzido pelo controle da afinidade entre partículas ou pela diminuição do teor de sólidos.
+ Contudo,
+ fatores como a fragmentação das partículas,
+ a introdução de contaminantes,
+ formulações químicas inadequadas e instabilidades térmicas tendem a aumentar esse valor 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Majidi2010"
+literal "false"
+
+\end_inset
+
+.
+ Dessa forma,
+ o controle adequado das propriedades reológicas torna-se fundamental para o sucesso das operações de perfuração.
+ Esses parâmetros influenciam diretamente na limpeza do poço,
+ na suspensão e transporte de sólidos e no desgaste das bombas,
+ devido ao aumento das perdas de carga 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Green2001,Young2012"
+literal "false"
+
+\end_inset
+
+.
+ Outro aspecto crítico é a invasão de filtrado para a formação perfurada,
+ fenômeno que pode comprometer a produtividade do poço e gerar sérios problemas caso não seja devidamente controlado 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Srivatsa2011"
+literal "false"
+
+\end_inset
+
+.
+ A intensidade da invasão depende da reologia do fluido,
+ do tempo de contato com a formação,
+ da permeabilidade e porosidade da rocha,
+ bem como de sua composição mineralógica 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Qutob2004,Reid2006"
+literal "false"
+
+\end_inset
+
+.
+ Para mitigar esse efeito,
+ utilizam-se aditivos redutores de filtrado,
+ como amido e carboximetilcelulose (CMC) em fluidos aquosos,
+ e poliacrilatos em fluidos de base sintética oleosa.
+ Em ambos os casos,
+ o carbonato de cálcio (CaCO₃) é empregado como auxiliar.
+ Os mecanismos de migração,
+ deposição e mobilização das partículas finas —
+ de natureza inorgânica ou orgânica —
+ estão associados a processos mecânicos,
+ químicos e térmicos que afetam a permoporosidade da formação 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Civan2007,Long2012"
+literal "false"
+
+\end_inset
+
+.
+ Na prática,
+ os problemas mais recorrentes em poços perfurados são o estreitamento do furo e a prisão diferencial,
+ muitas vezes resultantes da formulação inadequada do fluido,
+ seja pelo peso,
+ seja pela sua composição.
+ Esses fatores podem ocasionar instabilidade nas paredes,
+ perdas de circulação,
+ obstrução da coluna,
+ aumento do torque e do arraste.
+ Durante perfurações em formações contendo folhelhos reativos e sais,
+ como halita e silvinita,
+ comumente encontrados no pré-sal brasileiro,
+ o risco é intensificado.
+ Isso ocorre devido às deformações plásticas do sal e da argila,
+ à pressão litostática e à interação da água com argilas expansivas (esmectitas).
+ Para minimizar tais efeitos,
+ torna-se necessário o uso de fluidos altamente inibidores,
+ formulados com polímeros aniônicos de elevado peso molecular e aditivos à base de potássio ou poliméricos.
+ Em alguns cenários,
+ pode ser indispensável o aumento da densidade do fluido ou a aplicação de revestimentos especiais para conter as deformações 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Darley1988"
+literal "false"
+
+\end_inset
+
+.
+ Como a maioria dos poços não é completamente vertical,
+ a coluna de perfuração frequentemente entra em contato com as paredes do poço,
+ especialmente durante conexões e manobras.
+ Nessas condições,
+ ocorre o risco de aderência,
+ caracterizando o fenômeno conhecido como prisão diferencial (Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:A)-Representação-esquemática"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+).
+ Esse tipo de problema está diretamente ligado ao uso de fluidos inadequados,
+ que apresentam elevado teor de sólidos,
+ alta densidade,
+ taxas excessivas de filtrado e formação de rebocos espessos 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Darley1988"
+literal "false"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+alignment document
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+A) Representação esquemática de uma situação normal de perfuração;
+ (B) representação esquemática do aprisionamento de coluna por prisão diferencial e (C) influência da área de contato na prisão da coluna 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:A)-Representação-esquemática"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/OutrosProjetos/res/Captura de tela 2025-11-24 051839.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+.A prevenção ou redução desses problemas exige o uso de fluidos com baixo teor de sólidos,
+ controle rigoroso de filtrado e de viscosidade,
+ além do monitoramento do peso do fluido ao longo de toda a perfuração.
+ Tais cuidados favorecem a formação de rebocos finos e consistentes,
+ minimizando os riscos de aderência (Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Ilustração-esquemática-do"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+).
+ Além disso,
+ recomenda-se a utilização de estabilizadores distribuídos ao longo da coluna de perfuração,
+ bem como inspeções periódicas de verticalidade e verificação do diâmetro da broca 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Kulkarni2012,Darley1988"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+alignment document
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Ilustração esquemática do processo de perfuração e formação do reboco 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Ilustração-esquemática-do"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/OutrosProjetos/res/Captura de tela 2025-11-24 051932.png
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+FLUIDOS DE PERFURAÇÃO E CORROSÃO
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:FLUIDOS-DE-PERFURAÇÃO"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A corrosão é um processo de deterioração que afeta materiais metálicos,
+ geralmente provocado por reações químicas ou eletroquímicas com o meio ambiente.
+ Essa interação entre o metal e o ambiente pode ocorrer de forma isolada ou associada a esforços mecânicos,
+ resultando em alterações indesejadas e irreversíveis na estrutura do material,
+ como desgastes físicos e mudanças em sua composição química 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "GENTIL2022"
+literal "false"
+
+\end_inset
+
+.
+ À medida que a exploração e o desenvolvimento de petróleo e gás avançam constantemente em direção a formações profundas,
+ a perfuração através de múltiplas formações com diferentes pressões e tipos de rocha,
+ acidentes complexos como influxos de gás e intrusão de gás são frequentemente encontrados no subsolo.
+ A coluna de perfuração de poços de petróleo e gás é uma ferramenta importante para transmitir energia,
+ elevar e abaixar a broca e circular o fluido de perfuração durante as operações de perfuração 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Safian2024"
+literal "false"
+
+\end_inset
+
+.
+ No processo de perfuração,
+ gases ácidos como CO2 e H2S provenientes da intrusão de gás são facilmente dissolvidos ou dispersos no fluido de perfuração.
+ Ao mesmo tempo,
+ o tempo de resposta a acidentes de perfuração e intrusão de gás é longo,
+ e a coluna de perfuração fica sujeita a cargas subterrâneas complexas,
+ meios corrosivos,
+ temperaturas e acoplamentos de pressão,
+ o que pode facilmente causar deformação,
+ falha por corrosão e até mesmo perfuração e fratura do corpo e das conexões da coluna de perfuração 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Lan2010,Bi2013"
+literal "false"
+
+\end_inset
+
+.
+ Portanto,
+ é de grande importância prática estudar os danos ao desempenho mecânico das colunas de perfuração em fluidos de perfuração,
+ especialmente contendo CO2/H2S para garantir a segurança das colunas de perfuração durante a perfuração profunda de petróleo e gás 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Safian2024"
+literal "false"
+
+\end_inset
+
+.
+ As possíveis fontes que contribuem para a corrosão na perfuração de petróleo estão listadas na Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Possíveis-fontes-de"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+alignment document
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Possíveis fontes de contaminantes corrosivos na perfuração de petróleo e gás 
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Possíveis-fontes-de"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/OutrosProjetos/res/Captura de tela 2025-12-10 202632.png
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+O oxigênio é frequentemente associado à corrosão e representa uma fonte prevalente de corrosão em atividades de perfuração.
+ Ele pode infiltrar-se nos fluidos de perfuração através de poços na superfície do fluido ou telas vibratórias.
+ Curiosamente,
+ o oxigênio é comumente utilizado como aditivo para aumentar as taxas de penetração dos fluidos de perfuração,
+ elevando inadvertidamente a probabilidade de corrosão 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Park2011"
+literal "false"
+
+\end_inset
+
+.
+ O CO2 pode entrar no fluido de perfuração através da formação,
+ levando à formação de carbonato de ferro por meio de uma reação com o aço e H2CO3 intermediário.
+ Além do oxigênio e do CO2,
+ o H2S representa um risco significativo como acelerador de corrosão.
+ A contaminação por H2S,
+ originária da formação,
+ pode resultar em incidentes graves de corrosão na plataforma de perfuração,
+ mesmo em pequenas quantidades.
+ O H2S também pode estar presente no petróleo bruto,
+ na água e nos aditivos do fluido de perfuração.
+ A formulação do fluido de perfuração frequentemente inclui aditivos como sais solúveis,
+ que podem introduzir contaminantes mais corrosivos do que a água doce.
+ Cloretos e sulfatos,
+ em particular,
+ podem penetrar profundamente na superfície do aço,
+ formando bolhas e gerando pressão interna,
+ o que acaba por causar a deterioração do aço 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Fuente2007"
+literal "false"
+
+\end_inset
+
+.
+ Estudiosos relevantes têm pesquisado o comportamento de corrosão,
+ o desempenho mecânico e as causas de falha de tubos de perfuração em ambientes ácidos.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "HuangBenSheng2014"
+literal "false"
+
+\end_inset
+
+ investigaram o comportamento de corrosão e o mecanismo de corrosão sob tensão de tubos de perfuração G105 em soluções tampão com diferentes concentrações de íons de hidrogênio por meio de testes de tração com baixa taxa de deformação e testes eletroquímicos.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Zhang2014"
+literal "false"
+
+\end_inset
+
+ concluíram que as influências abrangentes de vários fatores,
+ como concentração de tensão e temperaturas sensíveis à corrosão sob tensão (SSCC) de 20 a 40 °C,
+ são a causa da fissuração e fratura por corrosão sob tensão induzida por H2S em tubos de perfuração S135 em um poço profundo do campo petrolífero de Tahe.
+ Wang (2016) descobriu,
+ por meio de análise de composição química,
+ análise de estrutura metalográfica,
+ análise da aparência macroscópica de tubos de perfuração,
+ testes de desempenho mecânico,
+ microscopia eletrônica de varredura e análise de espectro de energia,
+ que os furos no corpo do tubo de perfuração de aço S135 foram causados por fadiga por corrosão sob tensão.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Huang2010"
+literal "false"
+
+\end_inset
+
+ investigaram o comportamento de fissuração por corrosão sob tensão de tubos de perfuração G105 sob diferentes ambientes de íons cloreto por meio de testes de taxa de tensão lenta e experimentos eletroquímicos.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Wan2011"
+literal "false"
+
+\end_inset
+
+ investigaram os efeitos da temperatura,
+ velocidade de fluxo,
+ valor de pH e razão de pressão parcial de CO2/H2S em fluidos de perfuração poliméricos no comportamento de corrosão de tubos de perfuração de alta resistência S135 e G105.
+ Observa-se que as pesquisas atuais de estudiosos da área se concentram principalmente na corrosão sob tensão e na fadiga por corrosão de tubos de perfuração em ambientes com fluidos de perfuração ácidos contendo H2S,
+ enquanto há menos pesquisas sobre o comportamento da base e aditivos utilizados na formulação do fluido de perfuração nos processos corrosivos em aços,
+ como proposto neste trabalho.
+\end_layout
+
+\begin_layout Section
+MECANISMOS DE CORROSÃO NA PERFURAÇÃO
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:MECANISMOS-DE-CORROSÃO"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A corrosão nas indústrias de petróleo e gás,
+ particularmente em operações de perfuração,
+ é influenciada por condições semelhantes aos processos típicos de corrosão.
+ No entanto,
+ as condições de perfuração amplificam a severidade da corrosão.
+ Vários mecanismos contribuem para a corrosão observada na perfuração,
+ enquadrando-se nas categorias de corrosão eletroquímica e corrosão química,
+ que podem ocorrer simultaneamente.
+ Os revestimentos utilizados na perfuração,
+ frequentemente combinados com tubos de produção contendo brocas e tubos de perfuração,
+ encontram reservatórios em formas gasosas,
+ líquidas ou combinadas.
+ Notavelmente,
+ os reservatórios de gás natural tendem a estar em maiores profundidades em comparação com os reservatórios de petróleo bruto.
+ Dado que a temperatura aumenta com a profundidade e desempenha um papel significativo no processo de corrosão,
+ os danos por corrosão tornam-se mais pronunciados com o aumento da profundidade 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Amani2016"
+literal "false"
+
+\end_inset
+
+.
+ Durante o processo de perfuração,
+ o poço inicialmente começa seco e gradualmente acumula água ao longo do tempo,
+ frequentemente devido à maturação e incrustação do poço.
+ Consequentemente,
+ a corrosão se intensifica com o passar do tempo.
+ À medida que a perfuração avança através de diferentes formações geológicas,
+ os revestimentos são instalados para manter a estrutura do poço.
+ Esse processo introduz sais dissolvidos e oxigênio na água,
+ promovendo ainda mais a corrosão.
+ Portanto,
+ antes de implementar isolantes de corrosão em operações de perfuração,
+ é essencial uma compreensão abrangente dos diversos mecanismos de corrosão envolvidos 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Safian2024"
+literal "false"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Subsection
+CORROSÃO ELETROQUÍMICA
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:CORROSÃO-ELETROQUÍMICA"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Em operações de perfuração,
+ a água do mar é frequentemente utilizada como base para o fluido de perfuração à base de água.
+ A água do mar possui salinidade relativamente baixa,
+ contendo apenas 4% em peso de NaCl.
+ No entanto,
+ sua dureza supera a de outros tipos de água devido à abundância de íons de Mg e Ca.
+ Normalmente,
+ a dureza é mitigada pela adição de substâncias como NaOH e carbonato de sódio para precipitar os íons de Mg e Ca,
+ formando Mg(OH)₂ e CaCO₃,
+ respectivamente 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Willson2004"
+literal "false"
+
+\end_inset
+
+.
+ A água do mar,
+ sendo um eletrólito eficaz,
+ contribui para uma taxa de corrosão mais acentuada no poço.
+ Não é surpreendente que a taxa de corrosão exceda 250 mm/ano em toda a superfície 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Asrar2010"
+literal "false"
+
+\end_inset
+
+.
+ Apesar das condições únicas na perfuração,
+ a corrosão eletroquímica segue os mesmos mecanismos observados em outros locais.
+ O processo de corrosão cessa se ainda houver elétrons gerados pela reação anódica que não sejam utilizados.
+ Corrosão por pites,
+ corrosão galvânica e corrosão em frestas são típicas da corrosão eletroquímica (Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Ilustração-mostrando-alguns"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+alignment document
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Ilustração mostrando alguns tipos de corrosão comuns em operações de perfuração de poços de petróleo:
+ (a) corrosão uniforme,
+ (b) corrosão por pites,
+ (c) corrosão por frestas e (d) corrosão galvânica 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Ilustração-mostrando-alguns"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/OutrosProjetos/res/Captura de tela 2025-11-24 052627.png
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+CORROSÃO POR PITE
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:CORROSÃO-POR-PITE"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A corrosão por pite é conhecida como corrosão que resulta na formação de pequenos orifícios na superfície do metal.
+ Numerosos aços e ligas utilizados em diversas aplicações possuem uma película passiva – uma fina camada de óxido formada naturalmente na superfície do metal.
+ No entanto,
+ a corrosão por pite tem a capacidade de romper essa camada protetora,
+ levando à ruptura localizada.
+ Esse processo ocorre na superfície exposta,
+ transformando a área afetada em uma zona anódica e acelerando a dissolução do metal.
+ A remoção da película protetora é denominada despassivação.
+ Na perfuração,
+ a despassivação pode ocorrer por diversos mecanismos,
+ incluindo o ataque químico da água do mar aerada à película,
+ arranhões causados por pedras e detritos durante a perfuração ou a extensão da corrosão por fresta durante fases estagnadas no processo de perfuração 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Chudyk2019"
+literal "false"
+
+\end_inset
+
+.
+ A salinidade da água do mar influencia a taxa de corrosão,
+ visto que estudos indicam que a corrosividade da água aumenta com o aumento da salinidade,
+ mas diminui quando esta ultrapassa 3% em peso 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Zakowski2014"
+literal "false"
+
+\end_inset
+
+.
+ Esse fenômeno é atribuído ao impacto da salinidade na solubilidade do oxigênio.
+ Quando a concentração de sal excede o valor limite,
+ ocorre a formação de lama saturada de sal ou com alto teor de cloreto,
+ resultando em redução do oxigênio dissolvido.
+ Complicações surgem quando a lama de perfuração fica alojada na coluna de perfuração em frestas.
+ À medida que a lama começa a secar,
+ a lama remanescente desencadeia corrosão devido às variações nos níveis de salinidade,
+ levando à concentração de íons de oxigênio e cloreto.
+ As condições de perfuração podem comprometer as propriedades de resistência à corrosão de certos metais 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Safian2024"
+literal "false"
+
+\end_inset
+
+.
+ Além da concentração de cloreto,
+ a temperatura desempenha um papel significativo na ocorrência de corrosão por pite.
+ Temperaturas operacionais elevadas geralmente enfraquecem a película de óxido e intensificam a corrosão por pite 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Safian2024,Elsaady2018"
+literal "false"
+
+\end_inset
+
+ conduziram um estudo sobre a exposição prolongada do aço inoxidável duplex (2205) para examinar sua resistência à corrosão por pite sob diferentes temperaturas.
+ O teste envolveu um eletrólito contendo cloreto férrico,
+ resultando na solidificação na zona de solda com nucleação e crescimento de grãos de ferrita.
+ O experimento demonstrou que o efeito da corrosão por pite aumentou com o aumento da temperatura 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Elsaady2018"
+literal "false"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Subsection
+CORROSÃO GALVÂNICA
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:CORROSÃO-GALVÂNICA"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A corrosão galvânica,
+ também conhecida como corrosão bimetálica,
+ é influenciada pela série galvânica dos metais,
+ que varia de acordo com seu potencial de corrosão.
+ Ou seja,
+ os metais posicionados em direção ao potencial de corrosão negativo exibem uma tendência anódica em comparação com aqueles no lado positivo,
+ que se tornam catódicos.
+ No entanto,
+ certos metais podem apresentar faixas de potenciais de corrosão e existir em múltiplas formas,
+ dependendo das condições da água do mar – um estado passivo e um estado ativo 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Hack2010"
+literal "false"
+
+\end_inset
+
+.
+ Quando dois metais com uma diferença significativa no potencial de corrosão estão em contato,
+ a possibilidade de corrosão galvânica aumenta.
+ Essa corrosão ocorre quando os metais em contato atingem o equilíbrio,
+ envolvendo reações anódicas e catódicas.
+ O posicionamento dos metais desempenha um papel crucial na prevenção da corrosão galvânica em ambientes marinhos.
+ A capacidade da água do mar de distribuir uniformemente a condutividade pela superfície do metal facilita os processos eletroquímicos envolvidos na corrosão galvânica.
+ A presença de íons dissolvidos na água do mar permite a transferência eficiente de elétrons entre as regiões anódica e catódica,
+ contribuindo para as reações de corrosão.
+ Um método comum para neutralizar esse fenômeno é a implementação de proteção catódica local com peças de metal mais eletronegativo.
+ Um estudo conduzido por 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Nejneru2019"
+literal "false"
+
+\end_inset
+
+ investigou a corrosão galvânica envolvendo o acoplamento de ligas ferrosas e não ferrosas,
+ tipicamente usadas na construção em ambientes marinhos 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Nejneru2019"
+literal "false"
+
+\end_inset
+
+.
+ Quando expostas à água do mar,
+ ocorre a transferência de elétrons da liga menos nobre para a liga nobre,
+ resultando em uma maior resistência à corrosão para o metal menos nobre (Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Ilustração-mostrando-alguns"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+).
+ A escolha de um metal menos nobre como ânodo de sacrifício pode prevenir eficazmente a degradação grave da base devido à corrosão galvânica.
+ Os autores também descobriram que,
+ quando o aço inoxidável e o bronze são acoplados,
+ ambos os metais exibem comportamento nobre,
+ interceptando a corrente galvânica.
+ Consequentemente,
+ não se forma um par galvânico 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Safian2024"
+literal "false"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Subsection
+CORROSÃO POR FRESTAS
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:CORROSÃO-POR-FRESTAS"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A corrosão por frestas refere-se à corrosão que ocorre em espaços ou frestas entre dois materiais conectados (Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Ilustração-mostrando-alguns"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+).
+ Na perfuração,
+ essas frestas estão presentes entre os tubos de perfuração,
+ particularmente onde vários suportes ou braçadeiras são fixados.
+ Esses locais são propensos ao acúmulo de lama,
+ depósitos e sujeira.
+ Embora se reconheça que as frestas podem levar à corrosão por frestas,
+ evitá-las na perfuração é impraticável,
+ visto que a instalação da tubulação é necessária para estender o tubo de perfuração.
+ É essencial observar que a corrosão por frestas é geralmente menos severa do que a corrosão por pites,
+ pois as condições necessárias para sua ocorrência são menos exigentes.
+ Ao contrário da corrosão galvânica,
+ a corrosão por frestas pode ocorrer mesmo quando materiais não metálicos estão envolvidos.
+ No entanto,
+ tanto a corrosão metal-metal quanto a corrosão metal-não metal seguem o mesmo mecanismo de corrosão por frestas (Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Ilustração-mostrando-alguns"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+).
+ Uma vez iniciada a corrosão por frestas,
+ a distribuição da corrosão segue o mecanismo observado na corrosão por pites.
+ Embora existam semelhanças entre a corrosão por pites e a corrosão por frestas,
+ a principal distinção reside no local de ocorrência,
+ conforme ilustrado na Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Imagem-mostrando-a"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+alignment document
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Imagem mostrando a diferença entre (a) corrosão por pite e (b) corrosão por fresta 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Imagem-mostrando-a"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/OutrosProjetos/res/Captura de tela 2025-11-24 053040.png
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Em muitos casos,
+ a corrosão por frestas ocorre durante fases estagnadas,
+ um cenário comum na perfuração.
+ Dentro da região da fresta,
+ as condições diferem do meio circundante,
+ facilitadas pela restrição da difusão de massa 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Safian2024"
+literal "false"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Section
+CORROSÃO QUÍMICA
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:CORROSÃO-QUÍMICA"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Na perfuração,
+ a corrosão química está associada a fatores elementares como causa da corrosão.
+ As condições de perfuração permitem a presença de diversos elementos no meio aquoso,
+ com uma certa porcentagem atribuída ao fluido de perfuração à base de água (WBM) utilizado e o restante originado da sedimentação e formação de incrustações no poço.
+ Além disso,
+ a temperatura desempenha um papel crucial,
+ mesmo em temperaturas operacionais mais baixas (<100 °C).
+ As flutuações de temperatura impactam a solubilidade do oxigênio e do CO2 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Zakowski2014"
+literal "false"
+
+\end_inset
+
+.
+ Ademais,
+ o CO2 pode influenciar o pH do meio circundante,
+ enquanto o oxigênio pode exacerbar a severidade da corrosão.
+ Em essência,
+ a corrosão na perfuração é induzida principalmente por componentes não-hidrocarbonetos,
+ especificamente compostos inorgânicos 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Feng2017"
+literal "false"
+
+\end_inset
+
+.
+ A presença de inúmeros compostos inorgânicos representa um desafio nas operações de perfuração,
+ sendo os principais o H2S,
+ o CO2 e o oxigênio dissolvido.
+ A degradação do metal pelo H2S é denominada corrosão ácida na indústria do petróleo,
+ enquanto a corrosão induzida pelo CO2 é denominada corrosão doce.
+ Como o H2S e o CO2 estão comumente presentes em condições de perfuração,
+ a classificação da corrosão como ácida ou doce depende da proporção CO2/H2S.
+ Quando essa proporção é inferior a 20,
+ a corrosão é classificada como corrosão ácida e vice-versa para corrosão doce.
+ Além desses dois tipos de corrosão química,
+ a corrosão química por salmoura tem impactos significativos na perfuração de poços.
+ 
+\end_layout
+
+\begin_layout Subsection
+CORROSÃO POR SALMOURA
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:CORROSÃO-POR-SALMOURA"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A combinação de alta temperatura e alta concentração de íons cloreto leva à corrosão por salmoura.
+ Tipicamente,
+ a corrosão por salmoura inicia-se a profundidades de 300 - 400 m dentro do poço.
+ Os íons cloreto da solução salina podem se acumular na superfície do metal,
+ atacando a camada protetora 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Nielsen2000"
+literal "false"
+
+\end_inset
+
+.
+ Esse ataque resulta em uma camada aberta abaixo da camada protetora,
+ onde vários tipos de corrosão podem ocorrer.
+ A interação entre os íons cloreto na solução aquosa (íons hidrogênio e oxigênio) desativa a passividade da película protetora (ou filme passivo,
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Ilustração-mostrando-alguns"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+).
+ Esse fenômeno leva à formação de pites,
+ semelhante à corrosão por salmoura,
+ devido ao pequeno raio dos íons cloreto e à sua capacidade de penetração.
+ Além disso,
+ produtos de corrosão como FeS,
+ FeCO3,
+ e e outros,
+ tornam-se catódicos,
+ pois possuem um potencial elétrico mais alto em comparação com o metal,
+ resultando em um processo de corrosão contínuo.
+ Semelhante a outros tipos de corrosão,
+ uma alta concentração de íons cloreto equivale a um potencial de corrosão severo 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Safian2024"
+literal "false"
+
+\end_inset
+
+.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Mameng2014"
+literal "false"
+
+\end_inset
+
+ estudaram sobre as propriedades corrosivas da exposição a íons cloro em diferentes aços inoxidáveis e mostraram que uma alta concentração de íons cloro resulta em maior corrosão 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Mameng2014"
+literal "false"
+
+\end_inset
+
+.
+ Além disso,
+ os autores relataram que um alto teor de oxigênio permite maior penetração de íons cloro,
+ levando à aceleração da corrosão.
+ Além da corrosão por pite,
+ a corrosão por fresta pode ocorrer na presença de alta concentração de íons cloro 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Mameng2014"
+literal "false"
+
+\end_inset
+
+.
+ A presença de H2S e íons cloreto no meio aquoso pode acelerar ainda mais a corrosão.
+ Os íons cloreto aumentam a condutividade da solução circundante,
+ promovendo a formação de íons hidrogênio 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Song2017"
+literal "false"
+
+\end_inset
+
+.
+ Essa situação leva a uma menor formação de camadas compactas de FeS e seus derivados sobre a superfície do metal,
+ aumentando a probabilidade de corrosão 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Xue2019"
+literal "false"
+
+\end_inset
+
+.
+ Os íons cloreto se depositam em sítios defeituosos na superfície e podem dissolver a passivação da película protetora 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Safian2024"
+literal "false"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Section
+PROTEÇÃO CONTRA CORROSÃO NA PERFURAÇÃO
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:PROTEÇÃO-CONTRA-CORROSÃO"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Na indústria de petróleo e gás,
+ são empregadas diversas estratégias de mitigação da corrosão,
+ reconhecendo-se a corrosão como uma ameaça significativa à estabilidade da produção.
+ Duas das formas comumente utilizadas é a seleção de materiais e o uso de inibidores de corrosão.
+ Na seleção de materiais a escolha deve ser orientada por uma análise criteriosa da corrosividade do sistema,
+ levando em conta parâmetros operacionais como pressão,
+ temperatura,
+ presença de água,
+ profundidade dos poços e localização —
+ seja em ambientes onshore ou offshore.
+ Além disso,
+ fatores como a injeção de aditivos e a presença de contaminantes agressivos,
+ como dióxido de carbono (CO₂) e sulfeto de hidrogênio (H₂S),
+ devem ser cuidadosamente avaliados,
+ uma vez que influenciam diretamente o comportamento do material frente à corrosão 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "GENTIL2022"
+literal "false"
+
+\end_inset
+
+.
+ Devido à sua composição,
+ os aços-carbono apresentam baixa resistência à corrosão e ao desgaste,
+ especialmente quando expostos aos ambientes severos característicos da indústria do petróleo e gás.
+ Nessas condições,
+ é comum a ocorrência de fenômenos deteriorantes que comprometem a integridade estrutural dos componentes metálicos.
+ Diante disso,
+ torna-se inevitável a adoção de estratégias de mitigação que visem prolongar a vida útil desses materiais,
+ garantindo maior segurança e desempenho nas operações 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Wan2011"
+literal "false"
+
+\end_inset
+
+.
+ Embora existam materiais com propriedades superiores de resistência mecânica e à corrosão,
+ seu alto custo de produção limita a aplicação em larga escala.
+ Dessa forma,
+ a indústria busca alternativas que possibilitem a utilização dos aços-carbono de maneira mais eficiente e duradoura.
+ Entre as técnicas mais difundidas para mitigar o desgaste desses materiais estão os revestimentos com ligas metálicas resistentes à corrosão,
+ o uso de materiais poliméricos ou compósitos,
+ e a aplicação de tratamentos químicos,
+ que atuam como barreiras protetoras frente aos agentes agressivos presentes no ambiente operacional 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "GENTIL2022"
+literal "false"
+
+\end_inset
+
+,
+ tais como o uso de inibidores de corrosão.
+ Os inibidores de corrosão (ICs) destacam-se como uma importante linha de defesa contra a corrosão.
+ Quando aplicados ao ambiente circundante,
+ os ICs aderem à superfície metálica,
+ formando uma película passiva e mitigando a corrosão de forma eficaz.
+ Além disso,
+ o inibidor introduzido minimiza a perda de metal,
+ reduzindo quaisquer reações indesejadas entre os processos catódico,
+ anódico ou ambos 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Safian2024"
+literal "false"
+
+\end_inset
+
+.
+ Uma vantagem notável dos inibidores é a sua eficácia,
+ sendo necessária apenas uma pequena quantidade para uma prevenção eficaz da corrosão,
+ variando de 1 a 15.000 ppm.
+ Os inibidores podem ser classificados como compostos inorgânicos ou orgânicos.
+ A estrutura típica dos inibidores orgânicos inclui uma cabeça reativa,
+ uma longa cadeia e grupos funcionais como cauda,
+ conforme ilustrado na Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:(a)-Ilustração-de"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+a.
+ Por outro lado,
+ os inibidores inorgânicos consistem em sais e/ou metais que atuam em reações de corrosão anódica ou catódica.
+ A Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:(a)-Ilustração-de"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+b e 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:(a)-Ilustração-de"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+c ilustra os mecanismos dos inibidores anódicos e catódicos.
+ Resumidamente,
+ os inibidores anódicos reagem com os íons metálicos gerados no ânodo,
+ formando hidróxidos insolúveis que criam uma película impermeável depositada na superfície do metal.
+ Em contrapartida,
+ os inibidores catódicos formam,
+ independentemente,
+ uma barreira de precipitação insolúvel ao reagirem com os íons metálicos,
+ impedindo assim a progressão do processo de corrosão 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Safian2024"
+literal "false"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+alignment document
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+(a) Ilustração de inibidor orgânico adsorvido na superfície metálica,
+ formando uma barreira;
+ (b) mecanismo para inibição anódica e (c) inibição catódica 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:(a)-Ilustração-de"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/OutrosProjetos/res/Captura de tela 2025-11-24 053341.png
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ressalta-se que os fluidos de perfuração atuam como veículos para os inibidores de corrosão (ICs) nas operações de perfuração.
+ Aditivos,
+ incluindo ICs,
+ são incorporados às formulações de fluidos de perfuração antes do início da perfuração 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Safian2024"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+AVALIAÇÃO DA CORROSÃO 
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:AVALIAÇÃO-DA-CORROSÃO"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+As principais abordagens para o estudo da corrosão são os métodos gravimétricos (método de perda de peso) e eletroquímicos 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Malaret2022"
+literal "false"
+
+\end_inset
+
+,
+ além de análises visuais da superfície corroída 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "BinIdris2015"
+literal "false"
+
+\end_inset
+
+.
+ A análise gravimétrica é um dos métodos mais comuns para quantificar as taxas de corrosão,
+ pois é uma técnica simples que não envolve medições de correntes ou tensões 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Kutz2012"
+literal "false"
+
+\end_inset
+
+.
+ Como os testes de imersão são tão prevalentes tanto na pesquisa acadêmica quanto na industrial,
+ existem muitos procedimentos padronizados que foram desenvolvidos e publicados 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Malaret2022"
+literal "false"
+
+\end_inset
+
+.
+ De acordo com o “Manual de Testes e Critérios” 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "UNECE2023Manual"
+literal "false"
+
+\end_inset
+
+,
+ uma substância é considerada corrosiva quando a taxa de corrosão,
+ medida por meio do teste de imersão por pelo menos 1 semana (168 h),
+ excede 6,25 mm por ano a uma temperatura de teste de 55 °C em superfícies de aço ou alumínio.
+ Para quantificar as taxas de corrosão pelo método de perda de massa,
+ também conhecido como teste de imersão,
+ a perda de massa da amostra em estudo (de área superficial conhecida) é determinada pela diferença de peso antes e depois de ser imersa em um meio corrosivo por um período de tempo especificado 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Testing2025"
+literal "false"
+
+\end_inset
+
+.
+ Este é um método simples e bem estabelecido para estudar a corrosão;
+ no entanto,
+ apresenta algumas limitações importantes 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Kutz2012"
+literal "false"
+
+\end_inset
+
+:
+ – Fornece apenas a taxa de corrosão média durante o período do teste de imersão,
+ não permitindo a determinação das diferenças na cinética de oxidação.
+ – Pode levar a imprecisões na determinação da taxa de corrosão como consequência da remoção inadequada ou excessiva dos produtos de corrosão após a imersão.
+ – Não fornece informações sobre os mecanismos de corrosão.
+ – Pode subestimar a taxa de corrosão real se a corrosão localizada for o mecanismo de corrosão dominante.
+ Diretrizes padrão para o estudo da corrosão,
+ como ISO,
+ ASTM ou NACE TM0169/G31−12a “Guia Padrão para Testes de Corrosão por Imersão em Metais em Laboratório” 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Testing2025"
+literal "false"
+
+\end_inset
+
+,
+ são amplamente utilizadas pela indústria e pela academia.
+ Elas descrevem a metodologia para quantificar as taxas de corrosão por meio de experimentos de imersão.
+ A fórmula apresentada nestas normas para quantificar a taxa de corrosão,
+ que também é amplamente utilizada na literatura acadêmica,
+ é dada pela Equação 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:equação1"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+:
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula 
+\begin{equation}
+taxadecorrosão(mpy)=\frac{k*m}{a*t*p}\label{eq:equação1}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+onde k é uma constante 8,76 · 104 de modo que a taxa esteja em (mm/ano),
+ m é a perda de massa (g) do metal (m0 − mf) no tempo t (h),
+ A é a área da superfície do material exposto (cm2) e ρ é a densidade do material (g/cm3) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Testing2025,Kutz2012"
+literal "false"
+
+\end_inset
+
+.
+ Adicionalmente,
+ pode-se calcular a taxa de corrosão utilizando a equação 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:equação2"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+,
+ caso se deseja que a taxa de corrosão seja expressa em mpy (milésimos de polegada por ano),
+ unidade amplamente utilizada para expressar a penetração da corrosão em materiais metálicos 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Testing2025"
+literal "false"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula 
+\begin{equation}
+taxadecorrosão(mpy)=\frac{534*m}{a*t*p}\label{eq:equação2}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+onde o 534 é um fator que já incorpora todas as conversões de unidades.
+ Para classificação da severidade de corrosão nos testes realizados neste trabalho baseou-se na norma 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "NACE_RP0775_2005"
+literal "false"
+
+\end_inset
+
+,
+ em termos da taxa de corrosão,
+ seja em mpy,
+ em que 1 mil corresponde à 0,001 in,
+ ou em mm/ano,
+ conforme ilustrado na Tabela 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Classificação-das-taxas"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+alignment document
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Classificação das taxas de corrosão uniforme e por pites 
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Classificação-das-taxas"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/OutrosProjetos/res/Captura de tela 2025-11-24 054209.png
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Como a quantificação das taxas de corrosão por testes de imersão se concentra na medição da variação de massa,
+ é importante que haja uma variação de massa significativa (ou mensurável) para minimizar os erros relativos de pesagem,
+ o que normalmente é alcançado com tempos de exposição longos.
+ A norma ASTM destaca que testes realizados por longos períodos são consideravelmente mais realistas do que aqueles conduzidos por curtos períodos 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Testing2025"
+literal "false"
+
+\end_inset
+
+.
+ Além disso,
+ ressalta-se que a corrosão não deve progredir a ponto de reduzir drasticamente o tamanho original da amostra ou a área exposta,
+ ou de perfurar o metal 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Malaret2022"
+literal "false"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_body
+\end_document

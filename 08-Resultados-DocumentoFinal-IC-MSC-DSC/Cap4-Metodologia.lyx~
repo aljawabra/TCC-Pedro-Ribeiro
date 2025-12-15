@@ -1,0 +1,832 @@
+#LyX 2.4 created this file. For more info see https://www.lyx.org/
+\lyxformat 620
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass abnt
+\begin_preamble
+\usepackage {graphicx}
+\usepackage {longtable}
+
+\usepackage {indentfirst}
+\renewenvironment{center}{\par\centering}{\par}
+\end_preamble
+\use_default_options false
+\master Monografia-Dissertacao-Tese-master.lyx
+\maintain_unincluded_children no
+\language brazilian
+\language_package default
+\inputencoding iso8859-1
+\fontencoding auto
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement p
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref false
+\papersize a4
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_formatted_ref 0
+\use_minted 0
+\use_lineno 0
+\index Índice
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 210mm
+\paperheight 297mm
+\leftmargin 30mm
+\topmargin 25mm
+\rightmargin 20mm
+\bottommargin 20mm
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tablestyle default
+\tracking_changes false
+\output_changes false
+\change_bars false
+\postpone_fragile_content false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\docbook_table_output 0
+\docbook_mathml_prefix 1
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Metodologia
+\begin_inset Index idx
+range none
+pageformat default
+status open
+
+\begin_layout Plain Layout
+Metodologia
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:Metodologia"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lhead{
+\backslash
+thechapter-Metodologia} 
+\backslash
+rhead{
+\backslash
+thepage} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A elaboração deste trabalho foi conduzida por meio de uma abordagem metodológica estruturada em duas etapas fundamentais:
+ a pesquisa bibliográfica e a realização de experimentação laboratorial.
+ Essa divisão foi essencial para alinhar o conhecimento teórico com uma análise prática,
+ permitindo compreender de forma mais abrangente os efeitos corrosivos que diferentes fluidos de perfuração exercem sobre materiais metálicos comumente utilizados na indústria petrolífera.
+ Para a pesquisa bibliográfica foram consultados artigos científicos,
+ dissertações,
+ teses,
+ normas técnicas e publicações especializadas,
+ acessadas por meio de plataformas e bases de dados reconhecidas,
+ como Google Acadêmico,
+ Periódicos da CAPES,
+ Scielo e ScienceDirect.
+ A escolha criteriosa dessas fontes buscou consolidar uma base de conhecimento confiável sobre as propriedades físico-químicas dos fluidos de perfuração e os mecanismos de corrosão em ambientes de alta complexidade como os poços petrolíferos.
+ O trabalho experimental,
+ por sua vez,
+ permitiu ensaios que avaliaram o potencial corrosivo de fluidos de perfuração a base de água e sintéticos.
+ A Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Fluxograma-das-etapas"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+ aponta os processos realizados na parte prática do trabalho,
+ desde a preparação dos corpos de prova até a avaliação dos resultados.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+alignment document
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Fluxograma das etapas do procedimento experimental adotado para avaliação da corrosão de fluidos a base de água e glicerina
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Fluxograma-das-etapas"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/OutrosProjetos/res/Captura de tela 2025-11-24 122344.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+PREPARAÇÃO DOS CUPONS DE AÇO
+\begin_inset Index idx
+range none
+pageformat default
+status open
+
+\begin_layout Plain Layout
+AÇO
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:PREPARAÇÃO-DOS-CUPONS"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Para a realização dos ensaios de corrosão,
+ foram utilizados quatro cupons metálicos de aço inoxidável AISI 316L.
+ Este tipo de aço é semelhante ao empregado na indústria de petróleo e gás para diversos fins,
+ como no refino.
+ A Tabela 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Imagem-representativa-e"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+ apresenta a imagem e a composição química típica do aço 316L,
+ conforme especificações do fabricante.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+alignment document
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Imagem representativa e composição química do aço inoxidável AISI 316L
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Imagem-representativa-e"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/OutrosProjetos/res/Captura de tela 2025-11-24 122732.png
+	lyxscale 80
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Os cupons foram devidamente preparados para garantir a uniformidade das superfícies expostas aos meios corrosivos.
+ O processo de preparação envolveu a limpeza mecânica com lixas 3M de granulações progressivas (100,
+ 220,
+ 400 e 600),
+ seguida de limpeza química com acetona,
+ a fim de remover qualquer resíduo de óleo,
+ sujeira ou partículas metálicas.
+ Após a limpeza,
+ os cupons foram fotografados,
+ identificados por numeração individual e tiveram suas dimensões medidas com auxílio de um Paquímetro digital modelo Marathon de 8 polegadas (200 mm).
+ Após esta etapa os cupons foram pesados em balança analítica para registro das massas iniciais,
+ antes do experimento para avaliar a corrosão.
+ As dimensões e massas iniciais dos cupons selecionados para o estudo estão descritas na Tabela 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Dimensões-e-massas"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+alignment document
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Dimensões e massas iniciais dos cupons metálicos de aço inoxidável AISI 316L utilizados neste estudo
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Dimensões-e-massas"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/OutrosProjetos/res/Captura de tela 2025-11-24 122923.png
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+PREPARAÇÃO DOS FLUIDOS DE PERFURAÇÃO
+\begin_inset Index idx
+range none
+pageformat default
+status open
+
+\begin_layout Plain Layout
+PERFURAÇÃO
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:PREPARAÇÃO-DOS-FLUIDOS"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Foram preparados quatro diferentes fluidos de perfuração,
+ dois (02) à base de água e dois (02) à base de glicerina.
+ A preparação dos fluidos foi realizada com base em formulações laboratoriais controladas,
+ utilizando reagentes em quantidades específicas para garantir a repetibilidade dos ensaios de acordo com as recomendações da API (API,
+ 2009).
+ Desta forma,
+ cada um dos componentes foi adicionado e agitado por 10 minutos,
+ de forma individual,
+ em 350 mL de água industrial,
+ utilizando-se o misturador Hamilton-Beach modelo HMD400,
+ para a completa homogeneização.
+ O primeiro fluido base água,
+ denominado FBA1,
+ foi composto por 350 mL de salmoura preparada na proporção de 340 g de NaCl por litro de água,
+ 2,1 g de goma xantana,
+ 5,5 g de HPA (redutor de filtrado),
+ 17,5 g de NaCl (correspondente a uma concentração de 50.000 ppm) e 9 g de carbonato de cálcio (CaCO₃).
+ Já o segundo fluido base água,
+ FBA2,
+ possui a mesma composição do FBA1,
+ tendo como diferencial apenas a adição de 0,5 g de inibidor de corrosão de quaternário de amônia,
+ com o objetivo de avaliar a eficácia desse aditivo na proteção do metal.
+ Os dois fluidos seguintes foram preparados com glicerina como base.
+ O fluido FBG1 foi composto por 175 mL de salmoura,
+ 175 mL de glicerina,
+ 1,45 g de goma xantana,
+ 2 g de HPA,
+ 17,5 g de NaCl (correspondente a uma concentração de 50.000 ppm) e 9 g de CaCO₃.
+ Já o fluido FBG2,
+ mais concentrado em sais e sólidos,
+ foi preparado com 175 mL de água,
+ 175 mL de glicerina,
+ 1,45 g de goma xantana,
+ 2 g de HPA,
+ 35 g de NaCl (correspondente a uma concentração de 100.000 ppm) e 50 g de CaCO₃.
+ A Tabela 5 mostra essas formulações para os quatro fluidos.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+alignment document
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Descrição dos componentes e quantidades utilizadas para formulação dos fluidos de perfuração à base de água e glicerina 
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Descrição-dos-componentes"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/OutrosProjetos/res/Captura de tela 2025-11-24 123206.png
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Todos os fluidos de perfuração formulados tiveram suas propriedades avaliadas antes e após o envelhecimento em forno rotativo.
+ 
+\end_layout
+
+\begin_layout Section
+AVALIAÇÃO DAS PROPRIEDADES DOS FLUIDOS FORMULADOS
+\begin_inset Index idx
+range none
+pageformat default
+status open
+
+\begin_layout Plain Layout
+FORMULADOS
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:AVALIAÇÃO-DAS-PROPRIEDADES"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ao término da formulação dos fluidos,
+ realizou-se as leituras de reologia utilizando um viscosímetro do tipo rotacional FANN 35A e,
+ na sequência,
+ os fluidos foram encaminhados para o processo de envelhecimento em forno rotativo a 94 ºC por 7 dias.
+ Após a etapa de envelhecimento,
+ os fluidos foram avaliados quanto ao desempenho de acordo com ensaios padronizados segundo Normas API (API,
+ 2009) para análise reológica.
+ 
+\end_layout
+
+\begin_layout Subsection
+ANÁLISE REOLÓGICA
+\begin_inset Index idx
+range none
+pageformat default
+status open
+
+\begin_layout Plain Layout
+REOLÓGICA
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:ANÁLISE-REOLÓGICA"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Esta análise é importante para aferir a viscosidade do fluido quando submetido a diferentes forças cisalhantes,
+ uma vez que é por meio dela que se calcula o limite de escoamento e a viscosidade plástica do fluido,
+ além de sua capacidade em formar um gel com capacidade para reter os cascalhos produzidos em suspensão quando uma operação de perfuração é interrompida (Caenn et al.,
+ 2011).
+ Estas características são de extrema importância para que o fluido apresente bom valor comercial.
+ A viscosidade plástica foi medida subtraindo-se da leitura a 600 rpm,
+ a leitura a 300 rpm,
+ obtidas no Viscosímetro FANN 35A e o valor expresso em Centipoise (cP),
+ para avaliar a resistência interna do fluxo do fluido,
+ como resultado da interação dos sólidos presentes em um fluido de perfuração.
+ Por outro lado,
+ o limite de escoamento,
+ o qual representa o esforço requerido para iniciar o movimento em um fluido,
+ foi obtido subtraindo-se da leitura a 300 rpm o resultado da viscosidade plástica e expresso em lb/100ft2.
+ Estes ensaios reológicos foram realizados a 120 ºF (~49 ºC) através do Viscosímetro FANN 35 A,
+ antes e após o envelhecimento dos fluidos a 200 ºF (~93 ºC) em forno rotativo.
+ A leitura de tensão obtida no viscosímetro (em lb/100ft2) no modo L600 corresponde a 600 rpm e no modo L300 a 300 rpm.
+ Neste equipamento,
+ mediu-se também os valores de gel inicial (GEL 10 seg) e gel final (GEL 10 min),
+ que se relacionam à velocidade de formação e rigidez dos géis formados com o intuito de caracterizar a capacidade do fluido de sustentar os cascalhos formados.
+ O GEL 10 seg mediu a força do gel após dez segundos de repouso do fluido,
+ e o GEL 10 min após dez minutos.
+ 
+\end_layout
+
+\begin_layout Section
+TESTE DE CORROSÃO
+\begin_inset Index idx
+range none
+pageformat default
+status open
+
+\begin_layout Plain Layout
+CORROSÃO
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:TESTE-DE-CORROSÃO"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Para o teste de corrosão,
+ os cupons de aço AISI 316L foram individualmente imersos nos fluidos de perfuração formulados,
+ os quais foram acondicionados em cilindros de aço inoxidável e submetidos a um forno de envelhecimento giratório (Roller Oven – Model 704ES) a 94 °C por um período contínuo de 7 dias.
+ As etapas deste procedimento são apresentadas na Figura 9.
+ Os cupons foram imersos nos fluidos de perfuração considerando o seguinte:
+ 
+\end_layout
+
+\begin_layout Itemize
+Cupom 07 – imerso no fluido FBA1;
+ 
+\end_layout
+
+\begin_layout Itemize
+Cupom 10 – imerso no fluido FBA2;
+ 
+\end_layout
+
+\begin_layout Itemize
+Cupom 06 – imerso no fluido FBG1;
+ 
+\end_layout
+
+\begin_layout Itemize
+Cupom 02 – imerso no fluido FBG2.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+alignment document
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Etapas do procedimento experimental adotado para o teste de corrosão utilizando fluidos de perfuração como meios corrosivos
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Etapas-do-procedimento"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/OutrosProjetos/res/Captura de tela 2025-11-24 123642.png
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Após o período de exposição dos cupons aos diferentes fluidos,
+ os corpos de prova foram cuidadosamente retirados dos cilindros,
+ lavados com água destilada e secos à temperatura ambiente e reservados para posterior avaliação da corrosão.
+\end_layout
+
+\begin_layout Section
+AVALIAÇÃO DA TAXA DE CORROSÃO
+\begin_inset Index idx
+range none
+pageformat default
+status open
+
+\begin_layout Plain Layout
+CORROSÃO
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:AVALIAÇÃO-DA-TAXA"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Inicialmente realizou-se uma avaliação visual dos corpos de prova e registro fotográfico.
+ Em seguida,
+ foi realizada a pesagem da massa final de cada cupom utilizando uma balança analítica da marca Ohaus,
+ com o objetivo de determinar a variação de massa em relação ao peso inicial.
+ Essa diferença serviu como base para o cálculo da perda de material e,
+ consequentemente,
+ da taxa de corrosão para cada fluido avaliado.
+ A velocidade do desenvolvimento do processo corrosivo,
+ ou taxa de corrosão,
+ é expressa pela variação de massa por unidade de tempo (mm/ano ou mpy).
+ Tal parâmetro é importante ser avaliado,
+ pois por meio dele é possível estimar o tempo de vida útil de determinada estrutura.
+ Neste trabalho,
+ para medição da taxa de corrosão utilizou-se a equação 2 e o resultado foi expresso em milésimos de polegada por ano (mpy).
+ 
+\end_layout
+
+\begin_layout Section
+MICROSCOPIA ÓPTICA CONFOCAL
+\begin_inset Index idx
+range none
+pageformat default
+status open
+
+\begin_layout Plain Layout
+CONFOCAL
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:MICROSCOPIA-ÓPTICA-CONFOCAL"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Com o intuito de fazer uma caracterização detalhada e tridimensional (3D) dos danos causados pela corrosão na superfície dos cupons de aço foi realizado neste trabalho uma análise por microscopia óptica confocal,
+ empregando o equipamento Olympus LEXT OLS4000,
+ conforme visualizado na Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Etapas-do-procedimento-1"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+,
+ que possibilita a observação tridimensional da superfície com alta resolução.
+ O Microscópio Confocal a Laser 3D Olympus LEXT OLS4000 foi projetado para imagens em nível nanométrico,
+ caracterização de superfície 3D e medição de rugosidade.
+ A ampliação varia de 108x a 17.280x.
+ Esta técnica permitiu identificar características morfológicas associadas ao ataque corrosivo,
+ como sulcos,
+ porosidades e profundidade das regiões danificadas,
+ contribuindo para uma análise qualitativa complementar.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+alignment document
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Etapas do procedimento experimental para análise da superfície dos cupons por microscopia óptica confocal
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Etapas-do-procedimento-1"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/OutrosProjetos/res/Captura de tela 2025-11-24 123930.png
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Combinando a variação de massa e as imagens obtidas por microscopia,
+ foi possível avaliar de forma mais confiável os efeitos da corrosão em função das diferentes composições dos fluidos testados.
+\end_layout
+
+\end_body
+\end_document
